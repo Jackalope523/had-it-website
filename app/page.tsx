@@ -84,8 +84,10 @@ export default function Home() {
         </nav>
       </header>
 
-      <section className="relative overflow-hidden md:pt-16 py-28 md:py-24">
+      <section className="relative overflow-hidden">
         <div className="mt-10 space-y-2 md:space-y-3">
+          <MarqueeRow items={feelings1} />
+          <MarqueeRow items={feelings1} />
           <MarqueeRow items={feelings1} />
         </div>
 
@@ -109,6 +111,8 @@ export default function Home() {
         </div>
 
         <div className="space-y-2 md:space-y-3">
+          <MarqueeRow items={feelings2} reverse />
+          <MarqueeRow items={feelings2} reverse />
           <MarqueeRow items={feelings2} reverse />
         </div>
       </section>
