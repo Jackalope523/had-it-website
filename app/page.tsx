@@ -66,55 +66,6 @@ function MarqueeRow({
 export default function Home() {
   return (
     <div className="flex-1 bg-[#fff8e7] text-black font-sans">
-      {/* <div className={`bg-yellow-300 ${BORDER} border-x-0 border-t-0`}>
-        <div className="mx-auto max-w-6xl px-4 md:px-6 py-3 flex flex-col gap-2 text-xs md:text-sm">
-          <div className="flex flex-wrap items-center gap-x-5 gap-y-1 font-black uppercase tracking-tight">
-            <span>
-              <span className="opacity-70">Email:</span>{' '}
-              <a
-                href="mailto:here@hadit.ca"
-                className="hover:underline underline-offset-4 decoration-2">
-                here@hadit.ca
-              </a>
-            </span>
-            <span
-              aria-hidden
-              className="hidden sm:inline h-3 w-px bg-black/40"
-            />
-            <span>
-              <span className="opacity-70">SMS:</span>{' '}
-              <a
-                href="sms:+15142684505"
-                className="hover:underline underline-offset-4 decoration-2">
-                514-268-4505
-              </a>
-            </span>
-            <span
-              aria-hidden
-              className="hidden sm:inline h-3 w-px bg-black/40"
-            />
-            <span>
-              <span className="opacity-70">Chat:</span>{' '}
-              <a
-                href="#how"
-                className="hover:underline underline-offset-4 decoration-2">
-                Let&rsquo;s chat
-              </a>
-            </span>
-          </div>
-          <p className="font-medium leading-snug">
-            <span className="font-black uppercase">Not ready to talk?</span>{' '}
-            That&apos;s fine — bookmark this page and save{' '}
-            <a
-              href="tel:+15142684505"
-              className="font-black hover:underline underline-offset-4 decoration-2">
-              514-268-4505
-            </a>{' '}
-            so you can reach out when you&apos;re ready.
-          </p>
-        </div>
-      </div> */}
-
       <header className={`bg-[#fff8e7]`}>
         <nav className="mx-auto max-w-6xl flex items-center justify-between px-4 md:px-6 py-3 md:py-4">
           <Link
@@ -133,8 +84,7 @@ export default function Home() {
         </nav>
       </header>
 
-      {/* 1. HERO + FEELINGS */}
-      <section className="relative overflow-hidden pt-10 md:pt-16 pb-6">
+      <section className="relative overflow-hidden md:pt-16 py-28 md:py-24">
         <div className="mt-10 space-y-2 md:space-y-3">
           <MarqueeRow items={feelings1} />
         </div>
@@ -163,7 +113,6 @@ export default function Home() {
         </div>
       </section>
 
-      {/* 2. WAYS TO REACH OUT */}
       <section
         id="how"
         className="mx-auto max-w-6xl px-4 md:px-6 py-16 md:py-24">
