@@ -8,7 +8,6 @@
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  /* --font-sans is set on <html> by next/font Work_Sans */
 }
 
 @media (prefers-color-scheme: dark) {
@@ -35,16 +34,14 @@ body {
 .marquee-track {
   display: flex;
   width: max-content;
-  animation: marquee-left 40s linear infinite;
+  animation: marquee-left 480s linear infinite;
 }
 .marquee-track-reverse {
   display: flex;
   width: max-content;
-  animation: marquee-right 50s linear infinite;
+  animation: marquee-right 480s linear infinite;
 }
-.marquee-fast {
-  animation-duration: 25s;
-}
+
 @media (prefers-reduced-motion: reduce) {
   .marquee-track, .marquee-track-reverse { animation: none; }
 }

@@ -9,7 +9,6 @@ const PRESS =
 
 const feelings1 = [
   'Feeling stuck?',
-  'Feeling angry?',
   'Had enough?',
   'Stressed?',
   'Nobody listening?',
@@ -20,6 +19,14 @@ const feelings2 = [
   'Life not fair?',
   'Feeling stuck?',
   'Concerned for family or friends?',
+  'Need help?',
+];
+const feelings3 = [
+  'World is unjust?',
+  'Bullied?',
+  'Hated?',
+  'Excluded?',
+  'Trapped?',
 ];
 
 const FEELING_COLORS = [
@@ -34,22 +41,24 @@ const FEELING_COLORS = [
 function MarqueeRow({
   items,
   reverse = false,
-  fast = false,
   textClass = 'text-3xl md:text-5xl',
 }: {
   items: string[];
   reverse?: boolean;
-  fast?: boolean;
   textClass?: string;
 }) {
-  const doubled = [...items, ...items];
+  const extendedItems = [
+    ...items,
+    ...items,
+    ...items,
+    ...items,
+    ...items,
+    ...items,
+  ];
   return (
     <div className="overflow-hidden">
-      <div
-        className={`${reverse ? 'marquee-track-reverse' : 'marquee-track'} ${
-          fast ? 'marquee-fast' : ''
-        }`}>
-        {doubled.map((t, i) => (
+      <div className={reverse ? 'marquee-track-reverse' : 'marquee-track'}>
+        {extendedItems.map((t, i) => (
           <span
             key={i}
             className={`mx-2 my-1 inline-flex items-center ${
@@ -87,8 +96,8 @@ export default function Home() {
       <section className="relative overflow-hidden">
         <div className="mt-10 space-y-2 md:space-y-3">
           <MarqueeRow items={feelings1} />
-          <MarqueeRow items={feelings1} />
-          <MarqueeRow items={feelings1} />
+          <MarqueeRow items={feelings2} />
+          <MarqueeRow items={feelings3} />
         </div>
 
         <div className="mx-auto max-w-6xl px-4 md:px-6 my-10 text-center">
@@ -105,15 +114,15 @@ export default function Home() {
             </span>
           </h1>
           <p className="mt-6 max-w-xl mx-auto text-base md:text-xl leading-snug font-medium">
-            Whatever you&apos;re carrying — drop it here. No script, no
-            judgment, no records shared anywhere else.
+            Whatever you&apos;re carrying drop it here. You can contact us for
+            confidential support.
           </p>
         </div>
 
         <div className="space-y-2 md:space-y-3">
+          <MarqueeRow items={feelings1} reverse />
           <MarqueeRow items={feelings2} reverse />
-          <MarqueeRow items={feelings2} reverse />
-          <MarqueeRow items={feelings2} reverse />
+          <MarqueeRow items={feelings3} reverse />
         </div>
       </section>
 
@@ -332,27 +341,27 @@ export default function Home() {
             <div className="md:col-span-7">
               <p
                 className={`inline-block bg-black text-white ${BORDER} px-3 py-1 text-[11px] md:text-xs font-black uppercase`}>
-                Who we are
+                Who are we?
               </p>
               <h2 className="mt-4 text-4xl md:text-6xl font-black uppercase tracking-tight leading-[0.95]">
-                People who&apos;ll
+                People who
                 <br />
+                can{' '}
                 <span
                   className={`inline-block bg-yellow-300 ${BORDER} px-2 -rotate-1`}>
-                  actually listen.
+                  help.
                 </span>
               </h2>
               <p className="mt-6 text-base md:text-lg font-medium leading-snug">
-                We&apos;re a Quebec-based team of trained psychosocial
-                responders. We started because too many people fall through the
-                cracks of formal mental health services — and a real
-                conversation with a real person, early enough, can change the
-                path.
+                We work in collaboration with RAPS, a multi-disciplinary team
+                offering services that include social support, community
+                engagement, psychotherapy, psychiatry, and access to medical
+                services.
               </p>
               <p className="mt-4 text-base md:text-lg font-medium leading-snug">
-                We&apos;re not therapists. We&apos;re not a hotline. We&apos;re
-                the part where someone listens, takes you seriously, and helps
-                you figure out what — if anything — to do next.
+                In conjunction with regional partners, we provide support to
+                individuals and families throughout Québec who are affected by
+                the present social climate, which causes distress to many.
               </p>
             </div>
 
