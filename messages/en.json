@@ -1,0 +1,169 @@
+{
+  "Home": {
+    "nav": {
+      "logo": "we hear you",
+      "about": "About Us",
+      "resources": "Resources",
+      "faq": "FAQ",
+      "reachOut": "Reach out"
+    },
+    "feelings1": {
+      "stuck": "Feeling stuck?",
+      "hadEnough": "Had enough?",
+      "stressed": "Stressed?",
+      "nobodyListening": "Nobody listening?"
+    },
+    "feelings2": {
+      "misunderstood": "Feel misunderstood?",
+      "nothingLeft": "Nothing left to lose?",
+      "lifeUnfair": "Life not fair?",
+      "stuck": "Feeling stuck?",
+      "concernedForOthers": "Concerned for family or friends?",
+      "needHelp": "Need help?"
+    },
+    "feelings3": {
+      "worldUnjust": "World is unjust?",
+      "bullied": "Bullied?",
+      "hated": "Hated?",
+      "excluded": "Excluded?",
+      "trapped": "Trapped?"
+    },
+    "hero": {
+      "badge": "Free / confidential / Quebec",
+      "titleLead": "We're here to",
+      "titleEmphasis": "listen.",
+      "subtitle": "Whatever you're carrying drop it here. You can contact us for confidential support."
+    },
+    "ways": {
+      "tag": "Ways to reach us",
+      "headingLine1": "Pick whatever",
+      "headingLine2": "feels easiest.",
+      "subtitle": "You can reach out to us for confidential support.",
+      "chat": {
+        "tag": "Right now",
+        "title": "Live chat",
+        "body": "Tap the chat. Talk to a real person, anonymously.",
+        "cta": "Start chatting"
+      },
+      "phone": {
+        "tag": "8am – midnight",
+        "title": "Phone",
+        "body": "Hear a voice on the other end. Sometimes that's what helps most.",
+        "cta": "Call 514-268-4505"
+      },
+      "text": {
+        "tag": "Reply ≤24h",
+        "title": "Text",
+        "body": "Message us when you're ready. We'll meet you there.",
+        "cta": "Text 514-268-4505"
+      },
+      "email": {
+        "tag": "Reply ≤24h",
+        "title": "Email",
+        "body": "Write as little or as much as you want. No subject required.",
+        "cta": "here@hadit.ca"
+      }
+    },
+    "hesitating": {
+      "tag": "Reasons you're not reaching out",
+      "heading": "Hesitating to contact us?",
+      "youLabel": "You",
+      "usLabel": "Us",
+      "notInCrisis": {
+        "you": "I'm not in crisis. I shouldn't take up space.",
+        "us": "You don't need to be in crisis. If something's sitting heavy, that's enough."
+      },
+      "anonymity": {
+        "you": "I don't want my name on anything.",
+        "us": "You don't have to give one. Chat, text, and email are anonymous by default."
+      },
+      "confidentiality": {
+        "you": "What if you tell my family / partner / boss?",
+        "us": "We don't. The only exception is immediate risk to life — and we'll walk you through what happens."
+      },
+      "dontKnowWhatToSay": {
+        "you": "I don't even know what to say.",
+        "us": "Start with one word. \"Hi.\" \"Tired.\" \"Stuck.\" We'll take it from there."
+      },
+      "justVent": {
+        "you": "I just want to vent, not get advice.",
+        "us": "Then vent. We're trained to listen, not to fix."
+      },
+      "reallyFree": {
+        "you": "Is it really free?",
+        "us": "Yes. No fees, no insurance, no follow-up marketing. Ever."
+      },
+      "cta": "Ok. I'll try →"
+    },
+    "options": {
+      "tag": "Not the right fit?",
+      "headingLine1": "There are other",
+      "headingLine2": "options.",
+      "subtitle": "We'd rather you reach someone than wait. Both of these are free, confidential, and staffed by professionals.",
+      "infoSocial": {
+        "tag": "24 / 7",
+        "title": "811 — Info-Social",
+        "body": "Quebec's psychosocial helpline. Dial 811, choose option 2. Available 24 hours a day.",
+        "cta": "Call 811 →"
+      },
+      "telJeunes": {
+        "tag": "Ages 5 – 20",
+        "title": "Tel-jeunes",
+        "body": "Free, confidential support for young people. Phone, text, and chat.",
+        "cta": "1-800-263-2266 →"
+      }
+    },
+    "about": {
+      "tag": "Who are we?",
+      "headingLine1": "People who",
+      "headingLine2Lead": "can",
+      "headingLine2Emphasis": "help.",
+      "p1": "We work in collaboration with RAPS, a multi-disciplinary team offering services that include social support, community engagement, psychotherapy, psychiatry, and access to medical services.",
+      "p2": "In conjunction with regional partners, we provide support to individuals and families throughout Québec who are affected by the present social climate, which causes distress to many.",
+      "stats": {
+        "confidential": { "n": "100%", "l": "Confidential" },
+        "cost": { "n": "0$", "l": "Cost to you" },
+        "replyTime": { "n": "24h", "l": "Email / text reply" },
+        "location": { "n": "QC", "l": "Based in Quebec" }
+      }
+    },
+    "faq": {
+      "tag": "FAQ",
+      "headingLine1": "Do you have more",
+      "headingLine2": "questions?",
+      "hours": {
+        "q": "What hours are you open?",
+        "a": "Phone: 8 a.m. to midnight, every day. Email and text are monitored 24 hours and we reply within a day. Live chat is open whenever a responder is online — usually during phone hours."
+      },
+      "languages": {
+        "q": "What languages do you speak?",
+        "a": "We respond in English and French. Let us know which you prefer when you reach out — or just write in whichever feels easier."
+      },
+      "location": {
+        "q": "Do I have to live in Quebec?",
+        "a": "No. We're based in Quebec but we won't turn you away if you're elsewhere. We may suggest a service closer to you if it's a better fit."
+      },
+      "afterReachOut": {
+        "q": "What happens after I reach out?",
+        "a": "A trained responder reads or answers your message and replies. There's no intake form, no diagnosis, no referral pipeline. You decide what happens next."
+      },
+      "callback": {
+        "q": "Will you call me back if I don't answer?",
+        "a": "Only if you explicitly asked us to. Otherwise we wait for you to come back when you're ready."
+      },
+      "notTherapy": {
+        "q": "Are you a replacement for therapy or a crisis line?",
+        "a": "No. We're a place to be heard. If you're in immediate danger, please call 911. For ongoing care, 811 (option 2) can connect you with longer-term services."
+      },
+      "funding": {
+        "q": "How is this funded?",
+        "a": "We operate as a not-for-profit service. There's no cost to you and no third party gets your information."
+      }
+    },
+    "footer": {
+      "logo": "we hear you",
+      "description": "Free / confidential / non-judgmental. A service of hadit.ca, Quebec.",
+      "copyright": "© {year} hadit.ca"
+    }
+  }
+}

@@ -1,0 +1,169 @@
+{
+  "Home": {
+    "nav": {
+      "logo": "on t'écoute",
+      "about": "À propos",
+      "resources": "Ressources",
+      "faq": "FAQ",
+      "reachOut": "Nous joindre"
+    },
+    "feelings1": {
+      "stuck": "Tu te sens coincé?",
+      "hadEnough": "T'en as assez?",
+      "stressed": "Stressé?",
+      "nobodyListening": "Personne ne t'écoute?"
+    },
+    "feelings2": {
+      "misunderstood": "Tu te sens incompris?",
+      "nothingLeft": "Plus rien à perdre?",
+      "lifeUnfair": "La vie est injuste?",
+      "stuck": "Tu te sens coincé?",
+      "concernedForOthers": "Inquiet pour ta famille ou tes amis?",
+      "needHelp": "Besoin d'aide?"
+    },
+    "feelings3": {
+      "worldUnjust": "Le monde est injuste?",
+      "bullied": "Intimidé?",
+      "hated": "Détesté?",
+      "excluded": "Exclu?",
+      "trapped": "Pris au piège?"
+    },
+    "hero": {
+      "badge": "Gratuit / confidentiel / Québec",
+      "titleLead": "On est là pour",
+      "titleEmphasis": "t'écouter.",
+      "subtitle": "Peu importe ce que tu portes, dépose-le ici. Tu peux nous contacter pour du soutien confidentiel."
+    },
+    "ways": {
+      "tag": "Façons de nous joindre",
+      "headingLine1": "Choisis ce qui",
+      "headingLine2": "te convient.",
+      "subtitle": "Tu peux nous joindre pour du soutien confidentiel.",
+      "chat": {
+        "tag": "Maintenant",
+        "title": "Clavardage",
+        "body": "Ouvre le clavardage. Parle à une vraie personne, anonymement.",
+        "cta": "Commencer à clavarder"
+      },
+      "phone": {
+        "tag": "8h – minuit",
+        "title": "Téléphone",
+        "body": "Entends une voix au bout du fil. Parfois, c'est ce qui aide le plus.",
+        "cta": "Appeler 514-268-4505"
+      },
+      "text": {
+        "tag": "Réponse ≤24h",
+        "title": "Texto",
+        "body": "Écris-nous quand tu es prêt. On sera là.",
+        "cta": "Texto 514-268-4505"
+      },
+      "email": {
+        "tag": "Réponse ≤24h",
+        "title": "Courriel",
+        "body": "Écris aussi peu ou autant que tu veux. Pas besoin de sujet.",
+        "cta": "here@hadit.ca"
+      }
+    },
+    "hesitating": {
+      "tag": "Raisons de ne pas nous contacter",
+      "heading": "Tu hésites à nous contacter?",
+      "youLabel": "Toi",
+      "usLabel": "Nous",
+      "notInCrisis": {
+        "you": "Je ne suis pas en crise. Je ne devrais pas prendre de place.",
+        "us": "Tu n'as pas besoin d'être en crise. Si quelque chose pèse lourd, c'est suffisant."
+      },
+      "anonymity": {
+        "you": "Je ne veux pas donner mon nom.",
+        "us": "Tu n'as pas à le faire. Le clavardage, les textos et les courriels sont anonymes par défaut."
+      },
+      "confidentiality": {
+        "you": "Et si vous le dites à ma famille, mon ou ma partenaire, mon patron?",
+        "us": "On ne le fait pas. La seule exception est un risque immédiat pour la vie — et on t'expliquera ce qui se passe."
+      },
+      "dontKnowWhatToSay": {
+        "you": "Je ne sais même pas quoi dire.",
+        "us": "Commence par un mot. « Allô. » « Fatigué. » « Coincé. » On prend la suite."
+      },
+      "justVent": {
+        "you": "Je veux juste vider mon sac, pas recevoir de conseils.",
+        "us": "Alors vide-le. On est formés pour écouter, pas pour régler."
+      },
+      "reallyFree": {
+        "you": "C'est vraiment gratuit?",
+        "us": "Oui. Aucuns frais, aucune assurance, aucun suivi marketing. Jamais."
+      },
+      "cta": "OK. Je vais essayer →"
+    },
+    "options": {
+      "tag": "Ça ne te convient pas?",
+      "headingLine1": "Il existe d'autres",
+      "headingLine2": "options.",
+      "subtitle": "On préfère que tu joignes quelqu'un plutôt que d'attendre. Ces deux services sont gratuits, confidentiels et offerts par des professionnels.",
+      "infoSocial": {
+        "tag": "24 / 7",
+        "title": "811 — Info-Social",
+        "body": "La ligne psychosociale du Québec. Compose le 811, option 2. Disponible 24 heures sur 24.",
+        "cta": "Appeler 811 →"
+      },
+      "telJeunes": {
+        "tag": "5 à 20 ans",
+        "title": "Tel-jeunes",
+        "body": "Soutien gratuit et confidentiel pour les jeunes. Téléphone, texto et clavardage.",
+        "cta": "1-800-263-2266 →"
+      }
+    },
+    "about": {
+      "tag": "Qui sommes-nous?",
+      "headingLine1": "Des gens qui",
+      "headingLine2Lead": "peuvent",
+      "headingLine2Emphasis": "aider.",
+      "p1": "Nous travaillons en collaboration avec RAPS, une équipe multidisciplinaire offrant des services qui incluent du soutien social, de l'engagement communautaire, de la psychothérapie, de la psychiatrie et un accès à des services médicaux.",
+      "p2": "En collaboration avec des partenaires régionaux, nous soutenons les personnes et les familles partout au Québec qui sont touchées par le climat social actuel, qui cause de la détresse à plusieurs.",
+      "stats": {
+        "confidential": { "n": "100 %", "l": "Confidentiel" },
+        "cost": { "n": "0 $", "l": "Coût pour toi" },
+        "replyTime": { "n": "24 h", "l": "Réponse courriel / texto" },
+        "location": { "n": "QC", "l": "Basé au Québec" }
+      }
+    },
+    "faq": {
+      "tag": "FAQ",
+      "headingLine1": "Tu as d'autres",
+      "headingLine2": "questions?",
+      "hours": {
+        "q": "Quelles sont vos heures d'ouverture?",
+        "a": "Téléphone : de 8 h à minuit, tous les jours. Les courriels et textos sont surveillés 24 heures sur 24 et nous répondons en moins d'une journée. Le clavardage est ouvert lorsqu'un intervenant est en ligne — généralement durant les heures du téléphone."
+      },
+      "languages": {
+        "q": "Quelles langues parlez-vous?",
+        "a": "Nous répondons en français et en anglais. Indique-nous ta préférence quand tu nous écris — ou écris simplement dans la langue qui te convient."
+      },
+      "location": {
+        "q": "Dois-je habiter au Québec?",
+        "a": "Non. Nous sommes basés au Québec, mais nous ne te refuserons pas si tu es ailleurs. Nous pourrions te suggérer un service plus près de chez toi si c'est mieux adapté."
+      },
+      "afterReachOut": {
+        "q": "Que se passe-t-il après que je vous contacte?",
+        "a": "Un intervenant formé lit ou répond à ton message. Il n'y a pas de formulaire d'admission, pas de diagnostic, pas de redirection automatique. C'est toi qui décides de la suite."
+      },
+      "callback": {
+        "q": "Allez-vous me rappeler si je ne réponds pas?",
+        "a": "Seulement si tu nous l'as explicitement demandé. Sinon, on attend que tu reviennes quand tu seras prêt."
+      },
+      "notTherapy": {
+        "q": "Êtes-vous un substitut à la thérapie ou à une ligne de crise?",
+        "a": "Non. Nous sommes un endroit pour être écouté. Si tu es en danger immédiat, appelle le 911. Pour du soutien à long terme, le 811 (option 2) peut te diriger vers des services plus durables."
+      },
+      "funding": {
+        "q": "Comment est-ce financé?",
+        "a": "Nous fonctionnons comme un service à but non lucratif. Il n'y a aucun coût pour toi et aucune tierce partie n'a accès à tes informations."
+      }
+    },
+    "footer": {
+      "logo": "on t'écoute",
+      "description": "Gratuit / confidentiel / sans jugement. Un service de hadit.ca, Québec.",
+      "copyright": "© {year} hadit.ca"
+    }
+  }
+}
