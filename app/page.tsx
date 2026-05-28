@@ -74,8 +74,8 @@ function MarqueeRow({
 
 export default function Home() {
   return (
-    <div className="flex-1 bg-[#fff8e7] text-black font-sans">
-      <header className={`bg-[#fff8e7]`}>
+    <div className="flex-1 bg-[#f9f5f2] text-[#282924] font-sans">
+      <header className={`bg-[#f9f5f2]`}>
         <nav className="mx-auto max-w-6xl flex items-center justify-between px-4 md:px-6 py-3 md:py-4">
           <Link
             href="/"
@@ -85,6 +85,15 @@ export default function Home() {
             />
             we hear you
           </Link>
+          <p className="font-extrabold inline-block cursor-pointer transition-transform duration-150 hover:scale-110 active:scale-110">
+            About Us
+          </p>
+          <p className="font-extrabold inline-block cursor-pointer transition-transform duration-150 hover:scale-110 active:scale-110">
+            Resources
+          </p>
+          <p className="font-extrabold inline-block cursor-pointer transition-transform duration-150 hover:scale-110 active:scale-110">
+            FAQ
+          </p>
           <a
             href="#how"
             className={`bg-black text-white px-4 py-2 font-black uppercase text-xs md:text-sm ${BORDER} ${SHADOW} ${PRESS}`}>
@@ -156,7 +165,7 @@ export default function Home() {
               tag: '8am – midnight',
               title: 'Phone',
               body: "Hear a voice on the other end. Sometimes that's what helps most.",
-              cta: '514-268-4505',
+              cta: 'Call 514-268-4505',
               href: 'tel:+15142684505',
               color: 'bg-lime-300',
             },
@@ -205,8 +214,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* 3. OBJECTION HANDLING */}
-      <section className={`bg-[#ff5fa2] ${BORDER} border-x-0`}>
+      <section>
         <div className="mx-auto max-w-6xl px-4 md:px-6 py-16 md:py-24">
           <p
             className={`inline-block bg-black text-white ${BORDER} px-3 py-1 text-[11px] md:text-xs font-black uppercase`}>
@@ -335,7 +343,7 @@ export default function Home() {
       </section>
 
       {/* 5. ABOUT US */}
-      <section className={`bg-[#22d3ee] ${BORDER} border-x-0`}>
+      <section>
         <div className="mx-auto max-w-6xl px-4 md:px-6 py-16 md:py-24">
           <div className="grid md:grid-cols-12 gap-10 items-start">
             <div className="md:col-span-7">
