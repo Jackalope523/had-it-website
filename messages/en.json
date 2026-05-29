@@ -165,5 +165,124 @@
       "description": "Free / confidential / non-judgmental. A service of hadit.ca, Quebec.",
       "copyright": "© {year} hadit.ca"
     }
+  },
+  "Resources": {
+    "nav": {
+      "logo": "we hear you",
+      "about": "About Us",
+      "resources": "Resources",
+      "faq": "FAQ",
+      "home": "Home"
+    },
+    "hero": {
+      "badge": "Free / community resources",
+      "titleLead": "Helpful",
+      "titleEmphasis": "resources.",
+      "subtitle": "A growing list of community resources across Quebec. Start with what you need today."
+    },
+    "food": {
+      "tag": "Food",
+      "headingLine1": "Need a",
+      "headingLine2": "meal?",
+      "subtitle": "Food banks and community kitchens across Quebec.",
+      "visitCta": "Visit site →",
+      "items": {
+        "cantineStJacques": {
+          "city": "Montréal",
+          "title": "Cantine des Oeuvres St-Jacques",
+          "body": "Community kitchen serving meals in Montréal.",
+          "href": "http://cantinestjacques.com/"
+        },
+        "moissonQuebec": {
+          "city": "Québec City",
+          "title": "Moisson Quebec",
+          "body": "Food bank serving the Québec City region.",
+          "href": "https://moissonquebec.com/"
+        },
+        "moissonOutaouais": {
+          "city": "Gatineau",
+          "title": "Moisson Outaouais",
+          "body": "Food bank serving the Outaouais region.",
+          "href": "https://www.moissonoutaouais.com/en/"
+        },
+        "moissonEstrie": {
+          "city": "Sherbrooke",
+          "title": "Moisson Estrie",
+          "body": "Food bank serving the Estrie region.",
+          "href": "https://www.moissonestrie.com/en/"
+        }
+      }
+    },
+    "housing": {
+      "tag": "Housing",
+      "headingLine1": "Need a place",
+      "headingLine2": "to stay?",
+      "subtitle": "Housing resources and shelters across Quebec.",
+      "visitCta": "Visit site →",
+      "items": {
+        "dansLaRue": {
+          "city": "Montréal",
+          "title": "Dans La Rue",
+          "body": "Help finding apartments and support for youth in Montréal.",
+          "href": "https://danslarue.org/en/where-to-find-help/apartments/"
+        },
+        "villeQuebec": {
+          "city": "Québec City",
+          "title": "Ville de Québec logement",
+          "body": "Housing resources and information for residents of Québec City.",
+          "href": "https://www.ville.quebec.qc.ca/citoyens/propriete/logement.aspx"
+        },
+        "gatineauHousing": {
+          "city": "Gatineau",
+          "title": "Gatineau housing",
+          "body": "Affordable housing information from the City of Gatineau.",
+          "href": "https://www.gatineau.ca/portail/default.aspx?p=guichet_municipal/logements_abordables"
+        },
+        "omhSherbrooke": {
+          "city": "Sherbrooke",
+          "title": "Office municipal d'habitation de Sherbrooke",
+          "body": "Municipal housing office for the Sherbrooke region.",
+          "href": "https://omhsherbrooke.qc.ca/"
+        }
+      }
+    },
+    "listening": {
+      "tag": "Listening lines",
+      "headingLine1": "Need to",
+      "headingLine2": "talk?",
+      "subtitle": "Free, confidential listening lines across Quebec.",
+      "visitCta": "Visit site →",
+      "items": {
+        "telAideMontreal": {
+          "city": "Montréal",
+          "title": "Tel-Aide Montreal",
+          "body": "Free, anonymous and confidential listening line for the Montréal area.",
+          "href": "https://telaidemontreal.org/en/"
+        },
+        "telAideQuebec": {
+          "city": "Québec City",
+          "title": "Tel-Aide Québec",
+          "body": "Free, anonymous and confidential listening line for the Québec City area.",
+          "href": "https://www.telaide.qc.ca/"
+        },
+        "centreAide247": {
+          "city": "Gatineau",
+          "title": "Centre d'aide 24/7",
+          "body": "Listening and help line available around the clock in the Outaouais region.",
+          "href": "https://centredaide247.com/"
+        },
+        "secoursAmitieEstrie": {
+          "city": "Sherbrooke",
+          "title": "Secours amitié Estrie",
+          "body": "Confidential listening line for the Estrie region.",
+          "href": "https://www.secoursamitieestrie.org/"
+        }
+      }
+    },
+    "footer": {
+      "logo": "we hear you",
+      "description": "Free / confidential / non-judgmental. A service of hadit.ca, Quebec.",
+      "copyright": "© {year} hadit.ca"
+    }
   }
 }

@@ -124,9 +124,11 @@ export default function Home() {
           <p className="font-extrabold inline-block cursor-pointer transition-transform duration-150 hover:scale-110 active:scale-110">
             {t('nav.about')}
           </p>
-          <p className="font-extrabold inline-block cursor-pointer transition-transform duration-150 hover:scale-110 active:scale-110">
+          <Link
+            href="/resources"
+            className="font-extrabold inline-block cursor-pointer transition-transform duration-150 hover:scale-110 active:scale-110">
             {t('nav.resources')}
-          </p>
+          </Link>
           <p className="font-extrabold inline-block cursor-pointer transition-transform duration-150 hover:scale-110 active:scale-110">
             {t('nav.faq')}
           </p>

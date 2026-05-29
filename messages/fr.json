@@ -165,5 +165,124 @@
       "description": "Gratuit / confidentiel / sans jugement. Un service de hadit.ca, Québec.",
       "copyright": "© {year} hadit.ca"
     }
+  },
+  "Resources": {
+    "nav": {
+      "logo": "on t'écoute",
+      "about": "À propos",
+      "resources": "Ressources",
+      "faq": "FAQ",
+      "home": "Accueil"
+    },
+    "hero": {
+      "badge": "Gratuit / ressources communautaires",
+      "titleLead": "Ressources",
+      "titleEmphasis": "utiles.",
+      "subtitle": "Une liste grandissante de ressources communautaires partout au Québec. Commence par ce dont tu as besoin aujourd'hui."
+    },
+    "food": {
+      "tag": "Nourriture",
+      "headingLine1": "Besoin d'un",
+      "headingLine2": "repas?",
+      "subtitle": "Banques alimentaires et cuisines communautaires partout au Québec.",
+      "visitCta": "Visiter le site →",
+      "items": {
+        "cantineStJacques": {
+          "city": "Montréal",
+          "title": "Cantine des Œuvres St-Jacques",
+          "body": "Cuisine communautaire qui sert des repas à Montréal.",
+          "href": "http://cantinestjacques.com/"
+        },
+        "moissonQuebec": {
+          "city": "Ville de Québec",
+          "title": "Moisson Québec",
+          "body": "Banque alimentaire de la région de Québec.",
+          "href": "https://moissonquebec.com/"
+        },
+        "moissonOutaouais": {
+          "city": "Gatineau",
+          "title": "Moisson Outaouais",
+          "body": "Banque alimentaire de la région de l'Outaouais.",
+          "href": "https://www.moissonoutaouais.com/"
+        },
+        "moissonEstrie": {
+          "city": "Sherbrooke",
+          "title": "Moisson Estrie",
+          "body": "Banque alimentaire de la région de l'Estrie.",
+          "href": "https://www.moissonestrie.com/"
+        }
+      }
+    },
+    "housing": {
+      "tag": "Logement",
+      "headingLine1": "Besoin d'un endroit",
+      "headingLine2": "où rester?",
+      "subtitle": "Ressources en logement et hébergement partout au Québec.",
+      "visitCta": "Visiter le site →",
+      "items": {
+        "dansLaRue": {
+          "city": "Montréal",
+          "title": "Dans La Rue",
+          "body": "Aide pour trouver un logement et soutien aux jeunes à Montréal.",
+          "href": "https://danslarue.org/ou-trouver-de-laide/appartements/"
+        },
+        "villeQuebec": {
+          "city": "Ville de Québec",
+          "title": "Ville de Québec — logement",
+          "body": "Ressources et informations sur le logement pour les résidents de Québec.",
+          "href": "https://www.ville.quebec.qc.ca/citoyens/propriete/logement.aspx"
+        },
+        "gatineauHousing": {
+          "city": "Gatineau",
+          "title": "Logements abordables — Gatineau",
+          "body": "Informations sur les logements abordables de la Ville de Gatineau.",
+          "href": "https://www.gatineau.ca/portail/default.aspx?p=guichet_municipal/logements_abordables"
+        },
+        "omhSherbrooke": {
+          "city": "Sherbrooke",
+          "title": "Office municipal d'habitation de Sherbrooke",
+          "body": "Office municipal d'habitation pour la région de Sherbrooke.",
+          "href": "https://omhsherbrooke.qc.ca/"
+        }
+      }
+    },
+    "listening": {
+      "tag": "Lignes d'écoute",
+      "headingLine1": "Besoin de",
+      "headingLine2": "parler?",
+      "subtitle": "Lignes d'écoute gratuites et confidentielles partout au Québec.",
+      "visitCta": "Visiter le site →",
+      "items": {
+        "telAideMontreal": {
+          "city": "Montréal",
+          "title": "Tel-Aide Montréal",
+          "body": "Ligne d'écoute gratuite, anonyme et confidentielle pour la région de Montréal.",
+          "href": "https://telaidemontreal.org/"
+        },
+        "telAideQuebec": {
+          "city": "Ville de Québec",
+          "title": "Tel-Aide Québec",
+          "body": "Ligne d'écoute gratuite, anonyme et confidentielle pour la région de Québec.",
+          "href": "https://www.telaide.qc.ca/"
+        },
+        "centreAide247": {
+          "city": "Gatineau",
+          "title": "Centre d'aide 24/7",
+          "body": "Ligne d'écoute et d'aide disponible en tout temps dans l'Outaouais.",
+          "href": "https://centredaide247.com/"
+        },
+        "secoursAmitieEstrie": {
+          "city": "Sherbrooke",
+          "title": "Secours amitié Estrie",
+          "body": "Ligne d'écoute confidentielle pour la région de l'Estrie.",
+          "href": "https://www.secoursamitieestrie.org/"
+        }
+      }
+    },
+    "footer": {
+      "logo": "on t'écoute",
+      "description": "Gratuit / confidentiel / sans jugement. Un service de hadit.ca, Québec.",
+      "copyright": "© {year} hadit.ca"
+    }
   }
 }
