@@ -266,7 +266,51 @@ export default function Home() {
         </div>
       </section>
 
-      {/* 4. OTHER OPTIONS */}
+      <section>
+        <div className="mx-auto max-w-6xl px-4 md:px-6 py-16 md:py-24">
+          <div className="grid md:grid-cols-12 gap-10 items-start">
+            <div className="md:col-span-7">
+              <p
+                className={`inline-block bg-black text-white ${BORDER} px-3 py-1 text-[11px] md:text-xs font-black uppercase`}>
+                {t('about.tag')}
+              </p>
+              <h2 className="mt-4 text-4xl md:text-6xl font-black uppercase tracking-tight leading-[0.95]">
+                {t('about.headingLine1')}
+                <br />
+                {t('about.headingLine2Lead')}{' '}
+                <span
+                  className={`inline-block bg-yellow-300 ${BORDER} px-2 -rotate-1`}>
+                  {t('about.headingLine2Emphasis')}
+                </span>
+              </h2>
+              <p className="mt-6 text-base md:text-lg font-medium leading-snug">
+                {t('about.p1')}
+              </p>
+              <p className="mt-4 text-base md:text-lg font-medium leading-snug">
+                {t('about.p2')}
+              </p>
+            </div>
+
+            <div className="md:col-span-5 grid grid-cols-2 gap-4">
+              {STATS_KEYS.map((k, i) => (
+                <div
+                  key={k}
+                  className={`bg-white ${BORDER} ${SHADOW} p-4 md:p-5 ${
+                    i % 2 === 0 ? 'md:-rotate-1' : 'md:rotate-1'
+                  }`}>
+                  <div className="text-3xl md:text-4xl font-black uppercase tracking-tight">
+                    {t(`about.stats.${k}.n`)}
+                  </div>
+                  <div className="mt-1 text-xs md:text-sm font-bold uppercase">
+                    {t(`about.stats.${k}.l`)}
+                  </div>
+                </div>
+              ))}
+            </div>
+          </div>
+        </div>
+      </section>
+
       <section className="mx-auto max-w-6xl px-4 md:px-6 py-16 md:py-24">
         <p
           className={`inline-block bg-[#22d3ee] ${BORDER} px-3 py-1 text-[11px] md:text-xs font-black uppercase`}>
@@ -314,52 +358,6 @@ export default function Home() {
               {t('options.telJeunes.cta')}
             </span>
           </a>
-        </div>
-      </section>
-
-      {/* 5. ABOUT US */}
-      <section>
-        <div className="mx-auto max-w-6xl px-4 md:px-6 py-16 md:py-24">
-          <div className="grid md:grid-cols-12 gap-10 items-start">
-            <div className="md:col-span-7">
-              <p
-                className={`inline-block bg-black text-white ${BORDER} px-3 py-1 text-[11px] md:text-xs font-black uppercase`}>
-                {t('about.tag')}
-              </p>
-              <h2 className="mt-4 text-4xl md:text-6xl font-black uppercase tracking-tight leading-[0.95]">
-                {t('about.headingLine1')}
-                <br />
-                {t('about.headingLine2Lead')}{' '}
-                <span
-                  className={`inline-block bg-yellow-300 ${BORDER} px-2 -rotate-1`}>
-                  {t('about.headingLine2Emphasis')}
-                </span>
-              </h2>
-              <p className="mt-6 text-base md:text-lg font-medium leading-snug">
-                {t('about.p1')}
-              </p>
-              <p className="mt-4 text-base md:text-lg font-medium leading-snug">
-                {t('about.p2')}
-              </p>
-            </div>
-
-            <div className="md:col-span-5 grid grid-cols-2 gap-4">
-              {STATS_KEYS.map((k, i) => (
-                <div
-                  key={k}
-                  className={`bg-white ${BORDER} ${SHADOW} p-4 md:p-5 ${
-                    i % 2 === 0 ? 'md:-rotate-1' : 'md:rotate-1'
-                  }`}>
-                  <div className="text-3xl md:text-4xl font-black uppercase tracking-tight">
-                    {t(`about.stats.${k}.n`)}
-                  </div>
-                  <div className="mt-1 text-xs md:text-sm font-bold uppercase">
-                    {t(`about.stats.${k}.l`)}
-                  </div>
-                </div>
-              ))}
-            </div>
-          </div>
         </div>
       </section>
 
