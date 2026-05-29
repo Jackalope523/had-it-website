@@ -40,8 +40,7 @@
     },
     "ways": {
       "tag": "Façons de nous joindre",
-      "headingLine1": "Choisis ce qui",
-      "headingLine2": "te convient.",
+      "heading": "Choisis ce qui<br></br>te convient.",
       "subtitle": "Tu peux nous joindre pour du soutien confidentiel.",
       "chat": {
         "tag": "Maintenant",
@@ -101,8 +100,7 @@
     },
     "options": {
       "tag": "Ça ne te convient pas?",
-      "headingLine1": "Il existe d'autres",
-      "headingLine2": "options.",
+      "heading": "Il existe d'autres<br></br>options.",
       "subtitle": "On préfère que tu joignes quelqu'un plutôt que d'attendre. Ces deux services sont gratuits, confidentiels et offerts par des professionnels.",
       "infoSocial": {
         "tag": "24 / 7",
@@ -119,9 +117,7 @@
     },
     "about": {
       "tag": "Qui sommes-nous?",
-      "headingLine1": "Des gens qui",
-      "headingLine2Lead": "peuvent",
-      "headingLine2Emphasis": "aider.",
+      "heading": "Des gens qui<br></br>peuvent <em>aider.</em>",
       "p1": "Nous travaillons en collaboration avec RAPS, une équipe multidisciplinaire offrant des services qui incluent du soutien social, de l'engagement communautaire, de la psychothérapie, de la psychiatrie et un accès à des services médicaux.",
       "p2": "En collaboration avec des partenaires régionaux, nous soutenons les personnes et les familles partout au Québec qui sont touchées par le climat social actuel, qui cause de la détresse à plusieurs.",
       "stats": {
@@ -133,8 +129,7 @@
     },
     "faq": {
       "tag": "FAQ",
-      "headingLine1": "Tu as d'autres",
-      "headingLine2": "questions?",
+      "heading": "Tu as d'autres<br></br><em>questions?</em>",
       "hours": {
         "q": "Quelles sont vos heures d'ouverture?",
         "a": "Téléphone : de 8 h à minuit, tous les jours. Les courriels et textos sont surveillés 24 heures sur 24 et nous répondons en moins d'une journée. Le clavardage est ouvert lorsqu'un intervenant est en ligne — généralement durant les heures du téléphone."
@@ -174,8 +169,7 @@
     },
     "food": {
       "tag": "Nourriture",
-      "headingLine1": "Besoin d'un",
-      "headingLine2": "repas?",
+      "heading": "Besoin d'un<br></br>repas?",
       "subtitle": "Banques alimentaires et cuisines communautaires partout au Québec.",
       "visitCta": "Visiter le site →",
       "items": {
@@ -207,8 +201,7 @@
     },
     "housing": {
       "tag": "Logement",
-      "headingLine1": "Besoin d'un endroit",
-      "headingLine2": "où rester?",
+      "heading": "Besoin d'un endroit<br></br>où rester?",
       "subtitle": "Ressources en logement et hébergement partout au Québec.",
       "visitCta": "Visiter le site →",
       "items": {
@@ -240,8 +233,7 @@
     },
     "listening": {
       "tag": "Lignes d'écoute",
-      "headingLine1": "Besoin de",
-      "headingLine2": "parler?",
+      "heading": "Besoin de<br></br>parler?",
       "subtitle": "Lignes d'écoute gratuites et confidentielles partout au Québec.",
       "visitCta": "Visiter le site →",
       "items": {

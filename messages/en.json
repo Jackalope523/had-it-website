@@ -40,8 +40,7 @@
     },
     "ways": {
       "tag": "Ways to reach us",
-      "headingLine1": "Pick whatever",
-      "headingLine2": "feels easiest.",
+      "heading": "Pick whatever<br></br>feels easiest.",
       "subtitle": "You can reach out to us for confidential support.",
       "chat": {
         "tag": "Right now",
@@ -101,8 +100,7 @@
     },
     "options": {
       "tag": "Not the right fit?",
-      "headingLine1": "There are other",
-      "headingLine2": "options.",
+      "heading": "There are other<br></br>options.",
       "subtitle": "We'd rather you reach someone than wait. Both of these are free, confidential, and staffed by professionals.",
       "infoSocial": {
         "tag": "24 / 7",
@@ -119,9 +117,7 @@
     },
     "about": {
       "tag": "Who are we?",
-      "headingLine1": "People who",
-      "headingLine2Lead": "can",
-      "headingLine2Emphasis": "help.",
+      "heading": "People who<br></br>can <em>help.</em>",
       "p1": "We work in collaboration with RAPS, a multi-disciplinary team offering services that include social support, community engagement, psychotherapy, psychiatry, and access to medical services.",
       "p2": "In conjunction with regional partners, we provide support to individuals and families throughout Québec who are affected by the present social climate, which causes distress to many.",
       "stats": {
@@ -133,8 +129,7 @@
     },
     "faq": {
       "tag": "FAQ",
-      "headingLine1": "Do you have more",
-      "headingLine2": "questions?",
+      "heading": "Do you have more<br></br><em>questions?</em>",
       "hours": {
         "q": "What hours are you open?",
         "a": "Phone: 8 a.m. to midnight, every day. Email and text are monitored 24 hours and we reply within a day. Live chat is open whenever a responder is online — usually during phone hours."
@@ -174,8 +169,7 @@
     },
     "food": {
       "tag": "Food",
-      "headingLine1": "Need a",
-      "headingLine2": "meal?",
+      "heading": "Need a<br></br>meal?",
       "subtitle": "Food banks and community kitchens across Quebec.",
       "visitCta": "Visit site →",
       "items": {
@@ -207,8 +201,7 @@
     },
     "housing": {
       "tag": "Housing",
-      "headingLine1": "Need a place",
-      "headingLine2": "to stay?",
+      "heading": "Need a place<br></br>to stay?",
       "subtitle": "Housing resources and shelters across Quebec.",
       "visitCta": "Visit site →",
       "items": {
@@ -240,8 +233,7 @@
     },
     "listening": {
       "tag": "Listening lines",
-      "headingLine1": "Need to",
-      "headingLine2": "talk?",
+      "heading": "Need to<br></br>talk?",
       "subtitle": "Free, confidential listening lines across Quebec.",
       "visitCta": "Visit site →",
       "items": {

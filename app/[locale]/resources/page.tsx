@@ -52,9 +52,7 @@ function ResourceSection({
         {t(`${section}.tag`)}
       </p>
       <h2 className="mt-4 text-4xl md:text-6xl font-black uppercase tracking-tight leading-[0.95]">
-        {t(`${section}.headingLine1`)}
-        <br />
-        {t(`${section}.headingLine2`)}
+        {t.rich(`${section}.heading`, { br: () => <br /> })}
       </h2>
       <p className="mt-4 max-w-md text-base md:text-lg font-medium">
         {t(`${section}.subtitle`)}

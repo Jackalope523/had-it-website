@@ -147,9 +147,7 @@ export default function Home() {
           {t('ways.tag')}
         </p>
         <h2 className="mt-4 text-4xl md:text-6xl font-black uppercase tracking-tight leading-[0.95]">
-          {t('ways.headingLine1')}
-          <br />
-          {t('ways.headingLine2')}
+          {t.rich('ways.heading', { br: () => <br /> })}
         </h2>
         <p className="mt-4 max-w-md text-base md:text-lg font-medium">
           {t('ways.subtitle')}
@@ -241,13 +239,15 @@ export default function Home() {
                 {t('about.tag')}
               </p>
               <h2 className="mt-4 text-4xl md:text-6xl font-black uppercase tracking-tight leading-[0.95]">
-                {t('about.headingLine1')}
-                <br />
-                {t('about.headingLine2Lead')}{' '}
-                <span
-                  className={`inline-block bg-yellow-300 ${BORDER} px-2 -rotate-1`}>
-                  {t('about.headingLine2Emphasis')}
-                </span>
+                {t.rich('about.heading', {
+                  br: () => <br />,
+                  em: (chunks) => (
+                    <span
+                      className={`inline-block bg-yellow-300 ${BORDER} px-2 -rotate-1`}>
+                      {chunks}
+                    </span>
+                  ),
+                })}
               </h2>
               <p className="mt-6 text-base md:text-lg font-medium leading-snug">
                 {t('about.p1')}
@@ -283,9 +283,7 @@ export default function Home() {
           {t('options.tag')}
         </p>
         <h2 className="mt-4 text-4xl md:text-6xl font-black uppercase tracking-tight leading-[0.95]">
-          {t('options.headingLine1')}
-          <br />
-          {t('options.headingLine2')}
+          {t.rich('options.heading', { br: () => <br /> })}
         </h2>
         <p className="mt-4 max-w-md text-base md:text-lg font-medium">
           {t('options.subtitle')}
@@ -336,11 +334,14 @@ export default function Home() {
           {t('faq.tag')}
         </p>
         <h2 className="mt-4 text-4xl md:text-6xl font-black uppercase tracking-tight leading-[0.95]">
-          {t('faq.headingLine1')}
-          <br />
-          <span className={`inline-block bg-[#ff5fa2] ${BORDER} px-2`}>
-            {t('faq.headingLine2')}
-          </span>{' '}
+          {t.rich('faq.heading', {
+            br: () => <br />,
+            em: (chunks) => (
+              <span className={`inline-block bg-[#ff5fa2] ${BORDER} px-2`}>
+                {chunks}
+              </span>
+            ),
+          })}
         </h2>
 
         <div className="mt-10 space-y-4">
