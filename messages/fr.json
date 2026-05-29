@@ -7,8 +7,7 @@
   },
   "Footer": {
     "logo": "on t'écoute",
-    "description": "Gratuit / confidentiel / sans jugement. Un service de hadit.ca, Québec.",
-    "copyright": "© {year} hadit.ca",
+    "copyright": "© {year} On t'écoute. Tous droits réservés.",
     "privacyPolicy": "Politique de confidentialité"
   },
   "Home": {
