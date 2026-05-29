@@ -104,8 +104,7 @@ export default function Resources() {
         </span>
         <h1 className="mt-5 text-5xl sm:text-6xl md:text-8xl font-black uppercase tracking-tight leading-[0.9]">
           {t('hero.titleLead')}{' '}
-          <span
-            className={`inline-block bg-[#ff5fa2] ${BORDER} px-2 -rotate-1 mt-2`}>
+          <span className={`inline-block px-2 mt-2`}>
             {t('hero.titleEmphasis')}
           </span>
         </h1>
@@ -131,7 +130,7 @@ export default function Resources() {
         itemKeys={LISTENING_KEYS}
         tagColor="bg-[#ff5fa2]"
       />
-
     </div>
   );
 }
+
