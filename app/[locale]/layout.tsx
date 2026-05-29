@@ -12,7 +12,7 @@ const workSans = Work_Sans({
 });
 
 export const metadata: Metadata = {
-  title: 'we hear you — free, confidential support',
+  title: 'We Hear You',
   description:
     'Quebec-based psychosocial support. Free, confidential, non-judgmental listening by chat, text, email, or phone.',
 };
