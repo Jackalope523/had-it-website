@@ -1,12 +1,17 @@
 {
+  "Nav": {
+    "logo": "on t'écoute",
+    "about": "À propos",
+    "resources": "Ressources",
+    "faq": "FAQ"
+  },
+  "Footer": {
+    "logo": "on t'écoute",
+    "description": "Gratuit / confidentiel / sans jugement. Un service de hadit.ca, Québec.",
+    "copyright": "© {year} hadit.ca",
+    "privacyPolicy": "Politique de confidentialité"
+  },
   "Home": {
-    "nav": {
-      "logo": "on t'écoute",
-      "about": "À propos",
-      "resources": "Ressources",
-      "faq": "FAQ",
-      "reachOut": "Nous joindre"
-    },
     "feelings1": {
       "stuck": "Tu te sens coincé?",
       "hadEnough": "T'en as assez?",
@@ -159,21 +164,9 @@
         "q": "Comment est-ce financé?",
         "a": "Nous fonctionnons comme un service à but non lucratif. Il n'y a aucun coût pour toi et aucune tierce partie n'a accès à tes informations."
       }
-    },
-    "footer": {
-      "logo": "on t'écoute",
-      "description": "Gratuit / confidentiel / sans jugement. Un service de hadit.ca, Québec.",
-      "copyright": "© {year} hadit.ca"
     }
   },
   "Resources": {
-    "nav": {
-      "logo": "on t'écoute",
-      "about": "À propos",
-      "resources": "Ressources",
-      "faq": "FAQ",
-      "home": "Accueil"
-    },
     "hero": {
       "badge": "Gratuit / ressources communautaires",
       "titleLead": "Ressources",
@@ -278,11 +271,6 @@
           "href": "https://www.secoursamitieestrie.org/"
         }
       }
-    },
-    "footer": {
-      "logo": "on t'écoute",
-      "description": "Gratuit / confidentiel / sans jugement. Un service de hadit.ca, Québec.",
-      "copyright": "© {year} hadit.ca"
     }
   }
 }

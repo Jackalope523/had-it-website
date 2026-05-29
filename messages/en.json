@@ -1,12 +1,17 @@
 {
+  "Nav": {
+    "logo": "we hear you",
+    "about": "About Us",
+    "resources": "Resources",
+    "faq": "FAQ"
+  },
+  "Footer": {
+    "logo": "we hear you",
+    "description": "Free / confidential / non-judgmental. A service of hadit.ca, Quebec.",
+    "copyright": "© {year} hadit.ca",
+    "privacyPolicy": "Privacy policy"
+  },
   "Home": {
-    "nav": {
-      "logo": "we hear you",
-      "about": "About Us",
-      "resources": "Resources",
-      "faq": "FAQ",
-      "reachOut": "Reach out"
-    },
     "feelings1": {
       "stuck": "Feeling stuck?",
       "hadEnough": "Had enough?",
@@ -159,21 +164,9 @@
         "q": "How is this funded?",
         "a": "We operate as a not-for-profit service. There's no cost to you and no third party gets your information."
       }
-    },
-    "footer": {
-      "logo": "we hear you",
-      "description": "Free / confidential / non-judgmental. A service of hadit.ca, Quebec.",
-      "copyright": "© {year} hadit.ca"
     }
   },
   "Resources": {
-    "nav": {
-      "logo": "we hear you",
-      "about": "About Us",
-      "resources": "Resources",
-      "faq": "FAQ",
-      "home": "Home"
-    },
     "hero": {
       "badge": "Free / community resources",
       "titleLead": "Helpful",
@@ -278,11 +271,6 @@
           "href": "https://www.secoursamitieestrie.org/"
         }
       }
-    },
-    "footer": {
-      "logo": "we hear you",
-      "description": "Free / confidential / non-judgmental. A service of hadit.ca, Quebec.",
-      "copyright": "© {year} hadit.ca"
     }
   }
 }

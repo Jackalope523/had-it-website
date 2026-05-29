@@ -1,5 +1,4 @@
-import { useLocale, useTranslations } from 'next-intl';
-import { Link } from '@/i18n/navigation';
+import { useTranslations } from 'next-intl';
 
 const BORDER = 'border-[3px] border-black';
 const SHADOW = 'shadow-[5px_5px_0_0_#000] md:shadow-[6px_6px_0_0_#000]';
@@ -102,45 +101,12 @@ function MarqueeRow({
 
 export default function Home() {
   const t = useTranslations('Home');
-  const locale = useLocale();
-  const otherLocale = locale === 'en' ? 'fr' : 'en';
-  const otherLocaleLabel = otherLocale === 'fr' ? 'Français' : 'English';
   const feelings1 = FEELINGS1_KEYS.map((k) => t(`feelings1.${k}`));
   const feelings2 = FEELINGS2_KEYS.map((k) => t(`feelings2.${k}`));
   const feelings3 = FEELINGS3_KEYS.map((k) => t(`feelings3.${k}`));
 
   return (
     <div className="flex-1 bg-[#f9f5f2] text-[#282924] font-sans">
-      <header className={`bg-[#f9f5f2]`}>
-        <nav className="mx-auto max-w-6xl flex items-center justify-between px-4 md:px-6 py-3 md:py-4">
-          <Link
-            href="/"
-            className="flex items-center gap-2 text-lg md:text-2xl font-black tracking-tight uppercase">
-            <span
-              className={`inline-block h-5 w-5 md:h-6 md:w-6 bg-[#ff5fa2] ${BORDER}`}
-            />
-            {t('nav.logo')}
-          </Link>
-          <p className="font-extrabold inline-block cursor-pointer transition-transform duration-150 hover:scale-110 active:scale-110">
-            {t('nav.about')}
-          </p>
-          <Link
-            href="/resources"
-            className="font-extrabold inline-block cursor-pointer transition-transform duration-150 hover:scale-110 active:scale-110">
-            {t('nav.resources')}
-          </Link>
-          <p className="font-extrabold inline-block cursor-pointer transition-transform duration-150 hover:scale-110 active:scale-110">
-            {t('nav.faq')}
-          </p>
-          <Link
-            href="/"
-            locale={otherLocale}
-            className={`bg-black text-white px-4 py-2 font-black uppercase text-xs md:text-sm ${BORDER} ${SHADOW} ${PRESS}`}>
-            {otherLocaleLabel}
-          </Link>
-        </nav>
-      </header>
-
       <section className="relative overflow-hidden">
         <div className="mt-10 space-y-2 md:space-y-3">
           <MarqueeRow items={feelings1} />
@@ -266,7 +232,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section>
+      <section id="about" className="scroll-mt-20">
         <div className="mx-auto max-w-6xl px-4 md:px-6 py-16 md:py-24">
           <div className="grid md:grid-cols-12 gap-10 items-start">
             <div className="md:col-span-7">
@@ -362,7 +328,9 @@ export default function Home() {
       </section>
 
       {/* 6. FAQ */}
-      <section className="mx-auto max-w-6xl px-4 md:px-6 py-16 md:py-24">
+      <section
+        id="faq"
+        className="mx-auto max-w-6xl px-4 md:px-6 py-16 md:py-24 scroll-mt-20">
         <p
           className={`inline-block bg-lime-300 ${BORDER} px-3 py-1 text-[11px] md:text-xs font-black uppercase`}>
           {t('faq.tag')}
@@ -399,17 +367,6 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Footer */}
-      <footer className={`bg-black text-white ${BORDER} border-x-0 border-b-0`}>
-        <div className="mx-auto max-w-6xl px-4 md:px-6 py-8 flex flex-col gap-3 text-xs md:text-sm font-bold uppercase">
-          <div className="flex items-center gap-2">
-            <span className={`inline-block h-5 w-5 bg-[#ff5fa2] ${BORDER}`} />
-            {t('footer.logo')}
-          </div>
-          <p>{t('footer.description')}</p>
-          <p>{t('footer.copyright', { year: new Date().getFullYear() })}</p>
-        </div>
-      </footer>
     </div>
   );
 }
