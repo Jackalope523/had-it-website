@@ -1,24 +1,10 @@
 'use client';
 
-import { useEffect, useState } from 'react';
 import { useTranslations } from 'next-intl';
+import { setConsentCookie, declineConsentCookie } from '@/lib/actions/consent';
 
-const STORAGE_KEY = 'cookie-consent';
-
-export default function CookieConsent() {
+export default function CookieBanner() {
   const t = useTranslations('CookieConsent');
-  const [visible, setVisible] = useState(false);
-
-  useEffect(() => {
-    if (!localStorage.getItem(STORAGE_KEY)) setVisible(true);
-  }, []);
-
-  const handle = (granted: boolean) => {
-    localStorage.setItem(STORAGE_KEY, granted ? 'granted' : 'denied');
-    setVisible(false);
-  };
-
-  if (!visible) return null;
 
   return (
     <div
@@ -40,13 +26,13 @@ export default function CookieConsent() {
         <div className="flex gap-3 shrink-0">
           <button
             type="button"
-            onClick={() => handle(false)}
+            onClick={() => declineConsentCookie()}
             className="px-4 py-2 border-[3px] border-black bg-white text-black text-sm font-extrabold uppercase hover:bg-black hover:text-white">
             {t('reject')}
           </button>
           <button
             type="button"
-            onClick={() => handle(true)}
+            onClick={() => setConsentCookie()}
             className="px-4 py-2 border-[3px] border-black bg-black text-white text-sm font-extrabold uppercase hover:bg-[#ff5fa2] hover:text-black">
             {t('accept')}
           </button>

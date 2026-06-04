@@ -4,9 +4,10 @@ import './globals.css';
 import { hasLocale, NextIntlClientProvider } from 'next-intl';
 import { routing } from '@/i18n/routing';
 import { notFound } from 'next/navigation';
+import { cookies } from 'next/headers';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
-import CookieConsent from '@/components/CookieConsent';
+import CookieBanner from '@/components/CookieBanner';
 import { GoogleTagManager } from '@next/third-parties/google';
 
 const workSans = Work_Sans({
@@ -34,18 +35,21 @@ export default async function RootLayout({
     notFound();
   }
 
+  const consent = (await cookies()).get('cookie-consent')?.value;
+  const accepted = consent === 'accepted';
+  const gtmId = process.env.NEXT_PUBLIC_GTM_ID;
+
   return (
     <html lang="en" className={`${workSans.variable} h-full antialiased`}>
-      <GoogleTagManager gtmId="GTM-TT9958HQ" />
+      {accepted && gtmId ? <GoogleTagManager gtmId={gtmId} /> : null}
       <body className="min-h-full flex flex-col">
         <NextIntlClientProvider>
           <Header />
           {children}
           <Footer />
-          <CookieConsent />
+          {!accepted ? <CookieBanner /> : null}
         </NextIntlClientProvider>
       </body>
     </html>
   );
 }
-
