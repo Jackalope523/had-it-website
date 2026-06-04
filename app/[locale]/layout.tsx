@@ -37,11 +37,11 @@ export default async function RootLayout({
 
   const consent = (await cookies()).get('cookie-consent')?.value;
   const accepted = consent === 'accepted';
-  const gtmId = process.env.NEXT_PUBLIC_GTM_ID;
 
   return (
     <html lang="en" className={`${workSans.variable} h-full antialiased`}>
-      {accepted && gtmId ? <GoogleTagManager gtmId={gtmId} /> : null}
+      {accepted ? <GoogleTagManager gtmId="GTM-TT9958HQ" /> : null}
+
       <body className="min-h-full flex flex-col">
         <NextIntlClientProvider>
           <Header />
@@ -53,3 +53,4 @@ export default async function RootLayout({
     </html>
   );
 }
+
