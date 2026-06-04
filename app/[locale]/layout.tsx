@@ -9,6 +9,7 @@ import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import CookieBanner from '@/components/CookieBanner';
 import { GoogleTagManager } from '@next/third-parties/google';
+import Script from 'next/script';
 
 const workSans = Work_Sans({
   variable: '--font-sans',
@@ -41,6 +42,11 @@ export default async function RootLayout({
   return (
     <html lang="en" className={`${workSans.variable} h-full antialiased`}>
       {accepted ? <GoogleTagManager gtmId="GTM-TT9958HQ" /> : null}
+      <Script
+        id="tawk-to"
+        strategy="lazyOnload"
+        src="https://embed.tawk.to/65e1f52f8d261e1b5f674f64/1hntabgim"
+      />
 
       <body className="min-h-full flex flex-col">
         <NextIntlClientProvider>
