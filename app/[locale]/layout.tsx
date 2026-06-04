@@ -6,6 +6,8 @@ import { routing } from '@/i18n/routing';
 import { notFound } from 'next/navigation';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
+import CookieConsent from '@/components/CookieConsent';
+import { GoogleTagManager } from '@next/third-parties/google';
 
 const workSans = Work_Sans({
   variable: '--font-sans',
@@ -34,11 +36,13 @@ export default async function RootLayout({
 
   return (
     <html lang="en" className={`${workSans.variable} h-full antialiased`}>
+      <GoogleTagManager gtmId="GTM-TT9958HQ" />
       <body className="min-h-full flex flex-col">
         <NextIntlClientProvider>
           <Header />
           {children}
           <Footer />
+          <CookieConsent />
         </NextIntlClientProvider>
       </body>
     </html>

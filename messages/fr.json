@@ -10,6 +10,13 @@
     "copyright": "© {year} On t'écoute. Tous droits réservés.",
     "privacyPolicy": "Politique de confidentialité"
   },
+  "CookieConsent": {
+    "title": "Consentement aux témoins",
+    "message": "En utilisant ce site, vous acceptez notre utilisation des témoins. Nous utilisons des témoins pour vous offrir une excellente expérience et pour assurer le bon fonctionnement de notre site.",
+    "learnMore": "En savoir plus",
+    "accept": "Accepter",
+    "reject": "Refuser"
+  },
   "Home": {
     "feelings1": {
       "stuck": "Tu te sens coincé?",
