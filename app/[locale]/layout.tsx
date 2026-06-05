@@ -18,7 +18,7 @@ const workSans = Work_Sans({
   display: 'swap',
 });
 
-const SITE_URL = 'https://www.hadit.ca';
+const SITE_URL = 'https://moonshot-website-beryl.vercel.app';
 
 export async function generateMetadata({
   params,
