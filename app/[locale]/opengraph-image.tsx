@@ -16,58 +16,23 @@ export default async function OpengraphImage({
   return new ImageResponse(
     (
       <div
-        style={{
-          width: '100%',
-          height: '100%',
-          background: '#f9f5f2',
-          color: '#282924',
-          display: 'flex',
-          flexDirection: 'column',
-          padding: 72,
-          fontFamily: 'sans-serif',
-        }}>
-        <div
-          style={{
-            display: 'flex',
-            alignItems: 'center',
-            gap: 18,
-            fontSize: 36,
-            fontWeight: 900,
-            textTransform: 'uppercase',
-            letterSpacing: -1,
-          }}>
+        tw="w-full h-full flex flex-col p-[72px] text-[#282924]"
+        style={{ background: '#f9f5f2', fontFamily: 'sans-serif' }}>
+        <div tw="flex items-center text-4xl font-black uppercase tracking-tight">
           <div
-            style={{
-              width: 44,
-              height: 44,
-              background: '#ff5fa2',
-              border: '6px solid #000',
-            }}
+            tw="w-11 h-11 mr-4"
+            style={{ background: '#ff5fa2', border: '6px solid #000' }}
           />
           we hear you
         </div>
 
         <div
-          style={{
-            flex: 1,
-            display: 'flex',
-            alignItems: 'center',
-            fontSize: 140,
-            fontWeight: 900,
-            textTransform: 'uppercase',
-            lineHeight: 0.9,
-            letterSpacing: -3,
-            flexWrap: 'wrap',
-            gap: 18,
-          }}>
-          <span style={{ display: 'flex' }}>{tHero('titleLead')}</span>
+          tw="flex flex-1 flex-wrap items-center text-[140px] font-black uppercase leading-[0.9]"
+          style={{ letterSpacing: -3 }}>
+          <span tw="flex mr-5">{tHero('titleLead')}</span>
           <span
-            style={{
-              background: '#ff5fa2',
-              border: '6px solid #000',
-              padding: '8px 24px',
-              display: 'flex',
-            }}>
+            tw="flex px-6 py-2"
+            style={{ background: '#ff5fa2', border: '6px solid #000' }}>
             {tHero('titleEmphasis')}
           </span>
         </div>
