@@ -7,8 +7,11 @@ export const alt = 'We Hear You';
 
 async function loadGoogleFont(family: string, weight: number) {
   const css = await fetch(
-    `https://fonts.googleapis.com/css2?family=${family.replace(/ /g, '+')}:wght@${weight}&display=swap`,
-    { headers: { 'User-Agent': 'Mozilla/5.0' } }
+    `https://fonts.googleapis.com/css2?family=${family.replace(
+      / /g,
+      '+',
+    )}:wght@${weight}&display=swap`,
+    { headers: { 'User-Agent': 'Mozilla/5.0' } },
   ).then((r) => r.text());
   const url = css.match(/src: url\((.+?)\) format/)?.[1];
   if (!url) throw new Error(`Font ${family} ${weight} not found`);
@@ -22,6 +25,7 @@ export default async function OpengraphImage({
 }) {
   const { locale } = await params;
   const tHero = await getTranslations({ locale, namespace: 'Home.hero' });
+  const tNav = await getTranslations({ locale, namespace: 'Nav' });
   const workSansBlack = await loadGoogleFont('Work Sans', 900);
 
   return new ImageResponse(
@@ -34,7 +38,7 @@ export default async function OpengraphImage({
             tw="w-11 h-11 mr-4"
             style={{ background: '#ff5fa2', border: '6px solid #000' }}
           />
-          we hear you
+          {tNav('logo')}
         </div>
 
         <div
@@ -63,6 +67,7 @@ export default async function OpengraphImage({
           weight: 900,
         },
       ],
-    }
+    },
   );
 }
+
