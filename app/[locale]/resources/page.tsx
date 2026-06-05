@@ -111,6 +111,65 @@ export default function Resources() {
         </p>
       </section>
 
+      <section className="mx-auto max-w-6xl px-4 md:px-6 py-12 md:py-20">
+        <div className="grid gap-10 md:grid-cols-2 md:items-center">
+          <div>
+            <p
+              className={`inline-block bg-orange-300 ${BORDER} px-3 py-1 text-[11px] md:text-xs font-black uppercase`}>
+              {t('general.tag')}
+            </p>
+            <h2 className="mt-4 text-4xl md:text-6xl font-black uppercase tracking-tight leading-[0.95]">
+              {t.rich('general.heading', { br: () => <br /> })}
+            </h2>
+            <p className="mt-4 text-base md:text-lg font-medium">
+              {t('general.subtitle')}
+            </p>
+            <p className="mt-3 text-base md:text-lg font-medium">
+              {t('general.regionLead')}{' '}
+              <a
+                href={`mailto:${t('general.regionEmail')}`}
+                className="font-black underline underline-offset-4 hover:text-[#ff5fa2]">
+                {t('general.regionEmail')}
+              </a>
+              .
+            </p>
+          </div>
+
+          <div className={`bg-white ${BORDER} ${SHADOW_LG} p-6 md:p-7`}>
+            <div
+              className={`inline-block bg-orange-300 ${BORDER} px-2 py-1 text-[10px] font-black uppercase`}>
+              {t('general.card.scope')}
+            </div>
+            <h3 className="mt-3 text-2xl md:text-3xl font-black uppercase tracking-tight">
+              {t('general.card.title')}
+            </h3>
+            <p className="mt-2 font-medium">{t('general.card.body')}</p>
+            <div className="mt-5 flex flex-col gap-3">
+              <a
+                href={t('general.card.phoneHref')}
+                className={`inline-flex items-center justify-between bg-black text-white ${BORDER} px-3 py-2 text-xs md:text-sm font-black uppercase ${PRESS}`}>
+                <span>{t('general.card.phoneLabel')}</span>
+                <span>{t('general.card.phone')}</span>
+              </a>
+              <a
+                href={t('general.card.websiteHref')}
+                target="_blank"
+                rel="noopener noreferrer"
+                className={`inline-flex items-center justify-between bg-black text-white ${BORDER} px-3 py-2 text-xs md:text-sm font-black uppercase ${PRESS}`}>
+                <span>{t('general.card.websiteLabel')}</span>
+                <span>{t('general.card.website')} →</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <ResourceSection
+        section="listening"
+        itemKeys={LISTENING_KEYS}
+        tagColor="bg-[#ff5fa2]"
+      />
+
       <ResourceSection
         section="food"
         itemKeys={FOOD_KEYS}
@@ -121,12 +180,6 @@ export default function Resources() {
         section="housing"
         itemKeys={HOUSING_KEYS}
         tagColor="bg-lime-300"
-      />
-
-      <ResourceSection
-        section="listening"
-        itemKeys={LISTENING_KEYS}
-        tagColor="bg-[#ff5fa2]"
       />
     </div>
   );

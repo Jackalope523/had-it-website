@@ -19,7 +19,7 @@ export default function Footer() {
           </Link>
 
           <nav className="flex flex-col gap-3 md:items-end text-sm md:text-base font-extrabold uppercase">
-            <Link href="/#about" className="w-fit hover:text-[#ff5fa2]">
+            <Link href="/about" className="w-fit hover:text-[#ff5fa2]">
               {tNav('about')}
             </Link>
             <Link href="/resources" className="w-fit hover:text-[#ff5fa2]">

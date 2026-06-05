@@ -44,7 +44,7 @@ export default function Header() {
         </Link>
 
         <div className="hidden md:flex">
-          <Link href="/#about" className={LINK}>
+          <Link href="/about" className={LINK}>
             {t('about')}
           </Link>
         </div>
@@ -95,7 +95,7 @@ export default function Header() {
           className={`md:hidden absolute right-4 top-full mt-3 z-40 w-56 bg-white ${BORDER} ${SHADOW_LG} -rotate-1 p-5`}>
           <ul className="flex flex-col gap-4 text-lg font-black uppercase tracking-tight">
             <li>
-              <Link href="/#about" onClick={close} className={LINK}>
+              <Link href="/about" onClick={close} className={LINK}>
                 {t('about')}
               </Link>
             </li>

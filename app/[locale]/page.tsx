@@ -6,43 +6,40 @@ const SHADOW_LG = 'shadow-[6px_6px_0_0_#000] md:shadow-[10px_10px_0_0_#000]';
 const PRESS =
   'transition-all active:translate-x-[3px] active:translate-y-[3px] active:shadow-[2px_2px_0_0_#000] md:hover:translate-x-[3px] md:hover:translate-y-[3px] md:hover:shadow-[3px_3px_0_0_#000]';
 
-const FEELING_COLORS = [
-  'bg-[#ff5fa2]',
-  'bg-yellow-300',
-  'bg-[#22d3ee]',
-  'bg-lime-300',
-  'bg-white',
-  'bg-orange-300',
+const DEFAULT_FEELING_COLOR = 'bg-white';
+
+type Feeling = { key: string; color?: string };
+
+const FEELINGS1: readonly Feeling[] = [
+  { key: 'stuck' },
+  { key: 'hadEnough' },
+  { key: 'stressed', color: 'bg-[#22d3ee]' },
+  { key: 'nobodyListening' },
 ];
 
-const FEELINGS1_KEYS = [
-  'stuck',
-  'hadEnough',
-  'stressed',
-  'nobodyListening',
-] as const;
-const FEELINGS2_KEYS = [
-  'misunderstood',
-  'nothingLeft',
-  'lifeUnfair',
-  'stuck',
-  'concernedForOthers',
-  'needHelp',
-] as const;
-const FEELINGS3_KEYS = [
-  'worldUnjust',
-  'bullied',
-  'hated',
-  'excluded',
-  'trapped',
-] as const;
+const FEELINGS2: readonly Feeling[] = [
+  { key: 'misunderstood' },
+  { key: 'nothingLeft' },
+  { key: 'lifeUnfair' },
+  { key: 'stuck', color: 'bg-yellow-300' },
+  { key: 'concernedForOthers' },
+  { key: 'needHelp', color: 'bg-orange-300' },
+];
+
+const FEELINGS3: readonly Feeling[] = [
+  { key: 'worldUnjust' },
+  { key: 'bullied' },
+  { key: 'hated' },
+  { key: 'excluded' },
+  { key: 'trapped', color: 'bg-[#ff5fa2]' },
+];
 
 const WAY_CARDS = [
   { key: 'chat', href: '#how', color: 'bg-[#ff5fa2]' },
   { key: 'phone', href: 'tel:+15142684505', color: 'bg-lime-300' },
   { key: 'text', href: 'sms:+15142684505', color: 'bg-yellow-300' },
   { key: 'email', href: 'mailto:here@hadit.ca', color: 'bg-[#22d3ee]' },
-] as const;
+];
 
 const HESITATING_KEYS = [
   'notInCrisis',
@@ -70,7 +67,7 @@ function MarqueeRow({
   reverse = false,
   textClass = 'text-3xl md:text-5xl',
 }: {
-  items: string[];
+  items: { label: string; color?: string }[];
   reverse?: boolean;
   textClass?: string;
 }) {
@@ -85,13 +82,13 @@ function MarqueeRow({
   return (
     <div className="overflow-hidden">
       <div className={reverse ? 'marquee-track-reverse' : 'marquee-track'}>
-        {extendedItems.map((t, i) => (
+        {extendedItems.map((item, i) => (
           <span
             key={i}
             className={`mx-2 my-1 inline-flex items-center ${
-              FEELING_COLORS[i % FEELING_COLORS.length]
+              item.color ?? DEFAULT_FEELING_COLOR
             } ${BORDER} px-4 py-2 font-black uppercase tracking-tight whitespace-nowrap ${textClass}`}>
-            {t}
+            {item.label}
           </span>
         ))}
       </div>
@@ -101,9 +98,18 @@ function MarqueeRow({
 
 export default function Home() {
   const t = useTranslations('Home');
-  const feelings1 = FEELINGS1_KEYS.map((k) => t(`feelings1.${k}`));
-  const feelings2 = FEELINGS2_KEYS.map((k) => t(`feelings2.${k}`));
-  const feelings3 = FEELINGS3_KEYS.map((k) => t(`feelings3.${k}`));
+  const feelings1 = FEELINGS1.map((f) => ({
+    label: t(`feelings1.${f.key}`),
+    color: f.color,
+  }));
+  const feelings2 = FEELINGS2.map((f) => ({
+    label: t(`feelings2.${f.key}`),
+    color: f.color,
+  }));
+  const feelings3 = FEELINGS3.map((f) => ({
+    label: t(`feelings3.${f.key}`),
+    color: f.color,
+  }));
 
   return (
     <div className="flex-1 bg-[#f9f5f2] text-[#282924] font-sans">
