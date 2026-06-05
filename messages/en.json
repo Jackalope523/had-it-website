@@ -1,4 +1,10 @@
 {
+  "Meta": {
+    "title": "We Hear You",
+    "description": "Quebec-based psychosocial support. Free, confidential, non-judgmental listening by chat, text, email, or phone.",
+    "ogTitle": "We hear you.",
+    "ogTagline": "Free, confidential, non-judgmental listening."
+  },
   "Nav": {
     "logo": "we hear you",
     "about": "About Us",

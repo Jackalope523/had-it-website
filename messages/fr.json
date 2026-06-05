@@ -1,4 +1,10 @@
 {
+  "Meta": {
+    "title": "On t'écoute",
+    "description": "Soutien psychosocial au Québec. Écoute gratuite, confidentielle et sans jugement par clavardage, texto, courriel ou téléphone.",
+    "ogTitle": "On t'écoute.",
+    "ogTagline": "Écoute gratuite, confidentielle et sans jugement."
+  },
   "Nav": {
     "logo": "on t'écoute",
     "about": "À propos",

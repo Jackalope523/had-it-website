@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import { Work_Sans } from 'next/font/google';
 import './globals.css';
 import { hasLocale, NextIntlClientProvider } from 'next-intl';
+import { getTranslations } from 'next-intl/server';
 import { routing } from '@/i18n/routing';
 import { notFound } from 'next/navigation';
 import { cookies } from 'next/headers';
@@ -17,11 +18,38 @@ const workSans = Work_Sans({
   display: 'swap',
 });
 
-export const metadata: Metadata = {
-  title: 'We Hear You',
-  description:
-    'Quebec-based psychosocial support. Free, confidential, non-judgmental listening by chat, text, email, or phone.',
-};
+const SITE_URL = 'https://www.hadit.ca';
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}): Promise<Metadata> {
+  const { locale } = await params;
+  const t = await getTranslations({ locale, namespace: 'Meta' });
+  const title = t('title');
+  const description = t('description');
+  const ogTitle = t('ogTitle');
+
+  return {
+    metadataBase: new URL(SITE_URL),
+    title,
+    description,
+    openGraph: {
+      type: 'website',
+      url: '/',
+      siteName: title,
+      title: ogTitle,
+      description,
+      locale: locale === 'fr' ? 'fr_CA' : 'en_CA',
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title: ogTitle,
+      description,
+    },
+  };
+}
 
 export default async function RootLayout({
   children,
