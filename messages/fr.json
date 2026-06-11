@@ -24,26 +24,127 @@
     "reject": "Refuser"
   },
   "Home": {
-    "feelings1": {
-      "stuck": "Tu te sens coincé?",
-      "hadEnough": "T'en as assez?",
-      "stressed": "Stressé?",
-      "nobodyListening": "Personne ne t'écoute?"
-    },
-    "feelings2": {
-      "misunderstood": "Tu te sens incompris?",
-      "nothingLeft": "Plus rien à perdre?",
-      "lifeUnfair": "La vie est injuste?",
-      "stuck": "Tu te sens coincé?",
-      "concernedForOthers": "Inquiet pour ta famille ou tes amis?",
-      "needHelp": "Besoin d'aide?"
-    },
-    "feelings3": {
-      "worldUnjust": "Le monde est injuste?",
-      "bullied": "Intimidé?",
-      "hated": "Détesté?",
-      "excluded": "Exclu?",
-      "trapped": "Pris au piège?"
+    "concerns": {
+      "disengagement": {
+        "label": "Désengagement",
+        "row1": {
+          "stuck": "Tu te sens coincé?",
+          "hadEnough": "T'en as assez?",
+          "stressed": "Stressé?",
+          "nobodyListening": "Personne ne t'écoute?"
+        },
+        "row2": {
+          "misunderstood": "Tu te sens incompris?",
+          "nothingLeft": "Plus rien à perdre?",
+          "lifeUnfair": "La vie est injuste?",
+          "stuck": "Tu te sens coincé?",
+          "concernedForOthers": "Inquiet pour ta famille ou tes amis?",
+          "needHelp": "Besoin d'aide?"
+        },
+        "row3": {
+          "worldUnjust": "Le monde est injuste?",
+          "bullied": "Intimidé?",
+          "hated": "Détesté?",
+          "excluded": "Exclu?",
+          "trapped": "Pris au piège?"
+        }
+      },
+      "xenophobic": {
+        "label": "Violence xénophobe",
+        "row1": {
+          "targeted": "Visé pour ce que tu es?",
+          "blamed": "Blâmé pour d'où tu viens?",
+          "notWelcome": "On te fait sentir indésirable?",
+          "watched": "Toujours surveillé?"
+        },
+        "row2": {
+          "judgedForOrigin": "Jugé pour tes origines?",
+          "treatedDifferent": "Traité différemment?",
+          "scared": "Peur de sortir?",
+          "alone": "Personne ne comprend?",
+          "voicelessHere": "Pas de voix ici?",
+          "tooMuch": "Ça devient trop?"
+        },
+        "row3": {
+          "hated": "Détesté pour qui tu es?",
+          "threatened": "Menacé?",
+          "unsafeOutside": "Pas en sécurité en public?",
+          "silenced": "Réduit au silence?",
+          "invisible": "Tu te sens invisible?"
+        }
+      },
+      "antiAuthority": {
+        "label": "Violence anti-autorité",
+        "row1": {
+          "systemFailed": "Le système t'a laissé tomber?",
+          "ignoredByPower": "Ignoré par ceux au pouvoir?",
+          "rulesUnfair": "Les règles sont truquées?",
+          "fedUp": "T'en as marre?"
+        },
+        "row2": {
+          "noOneInCharge": "Personne ne prend ses responsabilités?",
+          "lawAgainstYou": "La loi joue contre toi?",
+          "betrayed": "Trahi par les institutions?",
+          "ignored": "Ignoré encore et encore?",
+          "neverHeard": "Jamais entendu?",
+          "boilingOver": "Ta colère déborde?"
+        },
+        "row3": {
+          "powerless": "Impuissant?",
+          "surveilled": "Surveillé constamment?",
+          "treatedLikeNumber": "Traité comme un numéro?",
+          "abandoned": "Abandonné par le système?",
+          "trapped": "Pris au piège?"
+        }
+      },
+      "genderBased": {
+        "label": "Violence basée sur le genre",
+        "row1": {
+          "notSafeHome": "Pas en sécurité chez toi?",
+          "controlled": "Contrôlé?",
+          "scared": "Peur de quelqu'un de proche?",
+          "watched": "Chaque geste surveillé?"
+        },
+        "row2": {
+          "blamed": "Blâmé pour ce qui est arrivé?",
+          "isolatedFromOthers": "Coupé de tes proches?",
+          "walkingOnEggshells": "Tu marches sur des œufs?",
+          "threatened": "On te menace?",
+          "judgedForBody": "Jugé pour ton corps?",
+          "ashamed": "Tu portes de la honte?"
+        },
+        "row3": {
+          "trapped": "Pris au piège?",
+          "silenced": "Réduit au silence?",
+          "hurt": "On te fait du mal?",
+          "notBelieved": "On ne te croit pas?",
+          "alone": "Seul là-dedans?"
+        }
+      },
+      "grievance": {
+        "label": "Autres griefs",
+        "row1": {
+          "wronged": "On t'a fait du tort?",
+          "ignored": "Ignoré?",
+          "dismissed": "Pas pris au sérieux?",
+          "fedUp": "T'en as marre?"
+        },
+        "row2": {
+          "noJustice": "Pas de justice pour toi?",
+          "lostEverything": "Tu as tout perdu?",
+          "blamedUnfairly": "Blâmé injustement?",
+          "treatedUnfairly": "Traité injustement?",
+          "owedSomething": "On te doit quelque chose qu'on te refuse?",
+          "taken": "On t'a pris quelque chose?"
+        },
+        "row3": {
+          "angry": "En colère?",
+          "resentful": "Plein de rancœur?",
+          "betrayed": "Trahi?",
+          "forgotten": "Oublié?",
+          "bitter": "L'amertume t'envahit?"
+        }
+      }
     },
     "hero": {
       "badge": "Gratuit / confidentiel / Québec",

@@ -10,14 +10,16 @@ const DEFAULT_FEELING_COLOR = 'bg-white';
 
 type Feeling = { key: string; color?: string };
 
-const FEELINGS1: readonly Feeling[] = [
+const ACTIVE_CONCERN = 'disengagement';
+
+const ROW1: readonly Feeling[] = [
   { key: 'stuck' },
   { key: 'hadEnough' },
   { key: 'stressed', color: 'bg-[#22d3ee]' },
   { key: 'nobodyListening' },
 ];
 
-const FEELINGS2: readonly Feeling[] = [
+const ROW2: readonly Feeling[] = [
   { key: 'misunderstood' },
   { key: 'nothingLeft' },
   { key: 'lifeUnfair' },
@@ -26,7 +28,7 @@ const FEELINGS2: readonly Feeling[] = [
   { key: 'needHelp', color: 'bg-orange-300' },
 ];
 
-const FEELINGS3: readonly Feeling[] = [
+const ROW3: readonly Feeling[] = [
   { key: 'worldUnjust' },
   { key: 'bullied' },
   { key: 'hated' },
@@ -98,16 +100,16 @@ function MarqueeRow({
 
 export default function Home() {
   const t = useTranslations('Home');
-  const feelings1 = FEELINGS1.map((f) => ({
-    label: t(`feelings1.${f.key}`),
+  const feelings1 = ROW1.map((f) => ({
+    label: t(`concerns.${ACTIVE_CONCERN}.row1.${f.key}`),
     color: f.color,
   }));
-  const feelings2 = FEELINGS2.map((f) => ({
-    label: t(`feelings2.${f.key}`),
+  const feelings2 = ROW2.map((f) => ({
+    label: t(`concerns.${ACTIVE_CONCERN}.row2.${f.key}`),
     color: f.color,
   }));
-  const feelings3 = FEELINGS3.map((f) => ({
-    label: t(`feelings3.${f.key}`),
+  const feelings3 = ROW3.map((f) => ({
+    label: t(`concerns.${ACTIVE_CONCERN}.row3.${f.key}`),
     color: f.color,
   }));
 
