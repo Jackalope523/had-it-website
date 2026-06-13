@@ -1,35 +1,34 @@
 {
   "Meta": {
-    "title": "On t'écoute",
-    "description": "Soutien psychosocial au Québec. Écoute gratuite, confidentielle et sans jugement par clavardage, texto, courriel ou téléphone.",
+    "title": "We Hear You",
+    "description": "Soutien psychosocial basé au Québec. Écoute gratuite, confidentielle et sans jugement par clavardage, texto, courriel ou téléphone.",
     "ogTitle": "On t'écoute.",
     "ogTagline": "Écoute gratuite, confidentielle et sans jugement."
   },
   "Nav": {
-    "logo": "on t'écoute",
+    "logo": "we hear you",
     "about": "À propos",
     "resources": "Ressources",
     "faq": "FAQ"
   },
   "Footer": {
-    "logo": "on t'écoute",
-    "copyright": "© {year} On t'écoute. Tous droits réservés.",
+    "logo": "we hear you",
+    "copyright": "© {year} We Hear You. Tous droits réservés.",
     "privacyPolicy": "Politique de confidentialité"
   },
   "CookieConsent": {
     "title": "Consentement aux témoins",
-    "message": "En utilisant ce site, vous acceptez notre utilisation des témoins. Nous utilisons des témoins pour vous offrir une excellente expérience et pour assurer le bon fonctionnement de notre site.",
+    "message": "En utilisant ce site, tu acceptes notre utilisation des témoins. Nous utilisons des témoins pour t'offrir une excellente expérience et pour assurer le bon fonctionnement de notre site.",
     "learnMore": "En savoir plus",
     "accept": "Accepter",
     "reject": "Refuser"
   },
   "Home": {
     "concerns": {
-      "disengagement": {
-        "label": "Désengagement",
+      "main": {
         "row1": {
           "stuck": "Tu te sens coincé?",
-          "hadEnough": "T'en as assez?",
+          "hadEnough": "Tu en as assez?",
           "stressed": "Stressé?",
           "nobodyListening": "Personne ne t'écoute?"
         },
@@ -38,111 +37,119 @@
           "nothingLeft": "Plus rien à perdre?",
           "lifeUnfair": "La vie est injuste?",
           "stuck": "Tu te sens coincé?",
-          "concernedForOthers": "Inquiet pour ta famille ou tes amis?",
           "needHelp": "Besoin d'aide?"
         },
         "row3": {
           "worldUnjust": "Le monde est injuste?",
-          "bullied": "Intimidé?",
           "hated": "Détesté?",
           "excluded": "Exclu?",
           "trapped": "Pris au piège?"
         }
       },
-      "xenophobic": {
-        "label": "Violence xénophobe",
+      "disengagement": {
         "row1": {
-          "targeted": "Visé pour ce que tu es?",
-          "blamed": "Blâmé pour d'où tu viens?",
-          "notWelcome": "On te fait sentir indésirable?",
-          "watched": "Toujours surveillé?"
+          "stuck": "Tu te sens coincé?",
+          "hadEnough": "Tu en as assez?",
+          "stressed": "Inquiet?",
+          "nobodyListening": "Personne à qui parler?"
         },
         "row2": {
-          "judgedForOrigin": "Jugé pour tes origines?",
-          "treatedDifferent": "Traité différemment?",
-          "scared": "Peur de sortir?",
-          "alone": "Personne ne comprend?",
-          "voicelessHere": "Pas de voix ici?",
-          "tooMuch": "Ça devient trop?"
+          "misunderstood": "Tu te sens incompris?",
+          "nothingLeft": "Besoin de soutien?",
+          "lifeUnfair": "La vie est injuste?",
+          "stuck": "Tu te sens perdu?",
+          "needHelp": "Besoin d'aide?"
         },
         "row3": {
-          "hated": "Détesté pour qui tu es?",
-          "threatened": "Menacé?",
-          "unsafeOutside": "Pas en sécurité en public?",
-          "silenced": "Réduit au silence?",
-          "invisible": "Tu te sens invisible?"
-        }
-      },
-      "antiAuthority": {
-        "label": "Violence anti-autorité",
-        "row1": {
-          "systemFailed": "Le système t'a laissé tomber?",
-          "ignoredByPower": "Ignoré par ceux au pouvoir?",
-          "rulesUnfair": "Les règles sont truquées?",
-          "fedUp": "T'en as marre?"
-        },
-        "row2": {
-          "noOneInCharge": "Personne ne prend ses responsabilités?",
-          "lawAgainstYou": "La loi joue contre toi?",
-          "betrayed": "Trahi par les institutions?",
-          "ignored": "Ignoré encore et encore?",
-          "neverHeard": "Jamais entendu?",
-          "boilingOver": "Ta colère déborde?"
-        },
-        "row3": {
-          "powerless": "Impuissant?",
-          "surveilled": "Surveillé constamment?",
-          "treatedLikeNumber": "Traité comme un numéro?",
-          "abandoned": "Abandonné par le système?",
+          "worldUnjust": "Le monde est injuste?",
+          "hated": "Envie de changement?",
+          "excluded": "Tu cherches une issue?",
           "trapped": "Pris au piège?"
         }
       },
-      "genderBased": {
-        "label": "Violence basée sur le genre",
+      "xenophobic": {
         "row1": {
-          "notSafeHome": "Pas en sécurité chez toi?",
-          "controlled": "Contrôlé?",
-          "scared": "Peur de quelqu'un de proche?",
-          "watched": "Chaque geste surveillé?"
+          "targeted": "Tu te sens isolé?",
+          "blamed": "Tu en as assez?",
+          "notWelcome": "Rempli de colère?",
+          "watched": "Personne ne t'écoute?"
         },
         "row2": {
-          "blamed": "Blâmé pour ce qui est arrivé?",
-          "isolatedFromOthers": "Coupé de tes proches?",
-          "walkingOnEggshells": "Tu marches sur des œufs?",
-          "threatened": "On te menace?",
-          "judgedForBody": "Jugé pour ton corps?",
-          "ashamed": "Tu portes de la honte?"
+          "judgedForOrigin": "Tu te sens incompris?",
+          "treatedDifferent": "Plus rien à perdre?",
+          "scared": "Le monde semble truqué?",
+          "alone": "Tu te sens coincé?",
+          "voicelessHere": "Tu perds le contrôle?"
         },
         "row3": {
-          "trapped": "Pris au piège?",
-          "silenced": "Réduit au silence?",
-          "hurt": "On te fait du mal?",
-          "notBelieved": "On ne te croit pas?",
-          "alone": "Seul là-dedans?"
+          "hated": "Le monde est injuste?",
+          "threatened": "Tes idées dérangent?",
+          "unsafeOutside": "Détesté?",
+          "silenced": "Exclu?"
+        }
+      },
+      "antiAuthority": {
+        "row1": {
+          "stuck": "Tu te sens coincé?",
+          "hadEnough": "Tu en as assez?",
+          "stressed": "Stressé?",
+          "nobodyListening": "Personne ne t'écoute?"
+        },
+        "row2": {
+          "misunderstood": "Tu te sens incompris?",
+          "nothingLeft": "Plus rien à perdre?",
+          "lifeUnfair": "La vie semble truquée?",
+          "stuck": "Tu te sens coincé?",
+          "needHelp": "Besoin d'aide?"
+        },
+        "row3": {
+          "worldBroken": "Le monde est brisé?",
+          "revolt": "Envie de te révolter?",
+          "ignored": "Ignoré et exclu?",
+          "angry": "En colère contre le monde?"
+        }
+      },
+      "genderBased": {
+        "row1": {
+          "stuck": "Tu te sens coincé?",
+          "hadEnough": "Tu en as assez?",
+          "connect": "Du mal à créer des liens?",
+          "nobodyListening": "Personne ne t'écoute?"
+        },
+        "row2": {
+          "misunderstood": "Tu te sens incompris?",
+          "nothingLeft": "Plus rien à perdre?",
+          "lifeUnfair": "La vie est injuste?",
+          "invisible": "Tu te sens invisible?",
+          "needHelp": "Besoin d'aide?"
+        },
+        "row3": {
+          "anger": "De plus en plus en colère?",
+          "bullied": "Intimidé?",
+          "ignored": "Souvent ignoré?",
+          "rejected": "Tu te sens rejeté?",
+          "hopeless": "Sans espoir?"
         }
       },
       "grievance": {
-        "label": "Autres griefs",
         "row1": {
-          "wronged": "On t'a fait du tort?",
-          "ignored": "Ignoré?",
-          "dismissed": "Pas pris au sérieux?",
-          "fedUp": "T'en as marre?"
+          "anger": "Tu ressens de la colère?",
+          "hadEnough": "Tu en as assez?",
+          "numb": "Insensible à la violence?",
+          "isolated": "Isolé?"
         },
         "row2": {
-          "noJustice": "Pas de justice pour toi?",
-          "lostEverything": "Tu as tout perdu?",
-          "blamedUnfairly": "Blâmé injustement?",
-          "treatedUnfairly": "Traité injustement?",
-          "owedSomething": "On te doit quelque chose qu'on te refuse?",
-          "taken": "On t'a pris quelque chose?"
+          "misunderstood": "Tu te sens incompris?",
+          "nothingLeft": "Plus rien à perdre?",
+          "lifeUnfair": "La vie est injuste?",
+          "stuck": "Tu te sens coincé?",
+          "needHelp": "Besoin d'aide?"
         },
         "row3": {
-          "angry": "En colère?",
-          "resentful": "Plein de rancœur?",
-          "betrayed": "Trahi?",
-          "forgotten": "Oublié?",
-          "bitter": "L'amertume t'envahit?"
+          "worldEnding": "La fin du monde approche?",
+          "act": "Envie de passer à l'action?",
+          "gore": "Attiré par le gore?",
+          "trapped": "Pris au piège?"
         }
       }
     },
@@ -150,70 +157,62 @@
       "badge": "Gratuit / confidentiel / Québec",
       "titleLead": "On est là pour",
       "titleEmphasis": "t'écouter.",
-      "subtitle": "Peu importe ce que tu portes, dépose-le ici. Tu peux nous contacter pour du soutien confidentiel."
+      "subtitle": "Tu peux nous contacter ici pour du soutien confidentiel."
     },
     "ways": {
-      "tag": "Façons de nous joindre",
-      "heading": "Choisis ce qui<br></br>te convient.",
+      "tag": "Comment nous joindre",
+      "heading": "Choisis ce qui<br></br>te convient le mieux.",
       "subtitle": "Tu peux nous joindre pour du soutien confidentiel.",
       "chat": {
         "tag": "Maintenant",
         "title": "Clavardage",
-        "body": "Ouvre le clavardage. Parle à une vraie personne, anonymement.",
+        "body": "Ouvre le clavardage. Parle à une vraie personne, de façon anonyme.",
         "cta": "Commencer à clavarder"
       },
       "phone": {
-        "tag": "8h – minuit",
+        "tag": "17 h – 21 h",
         "title": "Téléphone",
-        "body": "Entends une voix au bout du fil. Parfois, c'est ce qui aide le plus.",
+        "body": "Essaie de nous appeler. On est là pour t'écouter.",
         "cta": "Appeler 514-268-4505"
       },
       "text": {
-        "tag": "Réponse ≤24h",
+        "tag": "Réponse ≤ 24 h",
         "title": "Texto",
-        "body": "Écris-nous quand tu es prêt. On sera là.",
-        "cta": "Texto 514-268-4505"
+        "body": "Écris-nous quand tu es prêt. On te répondra.",
+        "cta": "Texter 514-268-4505"
       },
       "email": {
-        "tag": "Réponse ≤24h",
+        "tag": "Réponse ≤ 24 h",
         "title": "Courriel",
-        "body": "Écris aussi peu ou autant que tu veux. Pas besoin de sujet.",
+        "body": "Si tu préfères nous écrire par courriel, vas-y.",
         "cta": "here@hadit.ca"
       }
     },
     "hesitating": {
-      "tag": "Raisons de ne pas nous contacter",
+      "tag": "Des raisons de ne pas nous joindre",
       "heading": "Tu hésites à nous contacter?",
       "youLabel": "Toi",
       "usLabel": "Nous",
       "notInCrisis": {
-        "you": "Je ne suis pas en crise. Je ne devrais pas prendre de place.",
-        "us": "Tu n'as pas besoin d'être en crise. Si quelque chose pèse lourd, c'est suffisant."
+        "you": "Je ne suis pas en crise. Je n'ai pas besoin d'aide.",
+        "us": "Tu n'as pas besoin d'être en crise ni de vouloir de l'aide; parfois, ça fait simplement du bien de parler à quelqu'un qui écoute."
       },
       "anonymity": {
-        "you": "Je ne veux pas donner mon nom.",
-        "us": "Tu n'as pas à le faire. Le clavardage, les textos et les courriels sont anonymes par défaut."
-      },
-      "confidentiality": {
-        "you": "Et si vous le dites à ma famille, mon ou ma partenaire, mon patron?",
-        "us": "On ne le fait pas. La seule exception est un risque immédiat pour la vie — et on t'expliquera ce qui se passe."
-      },
-      "dontKnowWhatToSay": {
-        "you": "Je ne sais même pas quoi dire.",
-        "us": "Commence par un mot. « Allô. » « Fatigué. » « Coincé. » On prend la suite."
+        "you": "Je ne veux mon nom nulle part.",
+        "us": "Tu n'as pas à le donner. Le clavardage, les textos et les courriels sont anonymes par défaut."
       },
       "justVent": {
-        "you": "Je veux juste vider mon sac, pas recevoir de conseils.",
-        "us": "Alors vide-le. On est formés pour écouter, pas pour régler."
+        "you": "Je veux juste me défouler, pas recevoir de conseils.",
+        "us": "Tu peux nous parler. On est là pour t'écouter."
       },
       "reallyFree": {
-        "you": "C'est vraiment gratuit?",
-        "us": "Oui. Aucuns frais, aucune assurance, aucun suivi marketing. Jamais."
+        "you": "Est-ce vraiment gratuit?",
+        "us": "Oui."
       },
-      "cta": "OK. Je vais essayer →"
+      "cta": "D'accord. Je vais essayer →"
     },
     "options": {
-      "tag": "Ça ne te convient pas?",
+      "tag": "Pas le bon service pour toi?",
       "heading": "Il existe d'autres<br></br>options.",
       "subtitle": "On préfère que tu joignes quelqu'un plutôt que d'attendre. Ces deux services sont gratuits, confidentiels et offerts par des professionnels.",
       "infoSocial": {
@@ -232,9 +231,8 @@
     "about": {
       "tag": "Qui sommes-nous?",
       "heading": "Des gens qui<br></br>peuvent <em>aider.</em>",
+      "blurb": "Nous sommes des intervenants formés qui offrent un soutien gratuit, confidentiel et sans jugement à toute personne accablée par le climat social actuel.",
       "cta": "En savoir plus →",
-      "p1": "Nous travaillons en collaboration avec RAPS, une équipe multidisciplinaire offrant des services qui incluent du soutien social, de l'engagement communautaire, de la psychothérapie, de la psychiatrie et un accès à des services médicaux.",
-      "p2": "En collaboration avec des partenaires régionaux, nous soutenons les personnes et les familles partout au Québec qui sont touchées par le climat social actuel, qui cause de la détresse à plusieurs.",
       "stats": {
         "confidential": { "n": "100 %", "l": "Confidentiel" },
         "cost": { "n": "0 $", "l": "Coût pour toi" },
@@ -247,113 +245,127 @@
       "heading": "Tu as d'autres<br></br><em>questions?</em>",
       "hours": {
         "q": "Quelles sont vos heures d'ouverture?",
-        "a": "Téléphone : de 8 h à minuit, tous les jours. Les courriels et textos sont surveillés 24 heures sur 24 et nous répondons en moins d'une journée. Le clavardage est ouvert lorsqu'un intervenant est en ligne — généralement durant les heures du téléphone."
+        "a": "Téléphone : de 17 h à 21 h, tous les jours. Les courriels et les textos sont surveillés 24 heures sur 24 et nous répondons en moins d'une journée. Le clavardage est ouvert dès qu'un intervenant est en ligne, habituellement pendant les heures de téléphone."
       },
       "languages": {
         "q": "Quelles langues parlez-vous?",
-        "a": "Nous répondons en français et en anglais. Indique-nous ta préférence quand tu nous écris — ou écris simplement dans la langue qui te convient."
+        "a": "Nous répondons en français et en anglais. Dis-nous laquelle tu préfères lorsque tu nous joins, ou écris simplement dans la langue qui te convient le mieux."
       },
       "location": {
         "q": "Dois-je habiter au Québec?",
-        "a": "Non. Nous sommes basés au Québec, mais nous ne te refuserons pas si tu es ailleurs. Nous pourrions te suggérer un service plus près de chez toi si c'est mieux adapté."
+        "a": "Non. Nous sommes basés au Québec, mais nous ne te refuserons pas si tu es ailleurs. Nous pourrions te suggérer un service plus près de toi si c'est plus approprié."
       },
       "afterReachOut": {
-        "q": "Que se passe-t-il après que je vous contacte?",
-        "a": "Un intervenant formé lit ou répond à ton message. Il n'y a pas de formulaire d'admission, pas de diagnostic, pas de redirection automatique. C'est toi qui décides de la suite."
+        "q": "Que se passe-t-il après que je vous ai joints?",
+        "a": "Un intervenant formé lit ou écoute ton message et te répond. Il n'y a pas de formulaire d'accueil, pas de diagnostic, pas de système de référencement. C'est toi qui décides de la suite."
       },
       "callback": {
         "q": "Allez-vous me rappeler si je ne réponds pas?",
-        "a": "Seulement si tu nous l'as explicitement demandé. Sinon, on attend que tu reviennes quand tu seras prêt."
-      },
-      "notTherapy": {
-        "q": "Êtes-vous un substitut à la thérapie ou à une ligne de crise?",
-        "a": "Non. Nous sommes un endroit pour être écouté. Si tu es en danger immédiat, appelle le 911. Pour du soutien à long terme, le 811 (option 2) peut te diriger vers des services plus durables."
-      },
-      "funding": {
-        "q": "Comment est-ce financé?",
-        "a": "Nous fonctionnons comme un service à but non lucratif. Il n'y a aucun coût pour toi et aucune tierce partie n'a accès à tes informations."
+        "a": "Seulement si tu nous l'as explicitement demandé. Sinon, nous attendons que tu reviennes vers nous quand tu es prêt."
       }
     }
+  },
+  "About": {
+    "badge": "À propos",
+    "title": "Qui sommes-nous?",
+    "subtitle": "Des gens qui peuvent aider",
+    "sections": [
+      {
+        "tag": "Équipe",
+        "title": "Notre équipe.",
+        "body": "Nous sommes des intervenants formés qui travaillent en collaboration avec l'équipe de Recherche-Action sur la Polarisation Sociale (RAPS) à Montréal, une équipe multidisciplinaire offrant des services qui incluent du soutien social, de l'engagement communautaire, de la psychothérapie, de la psychiatrie et un accès à des services médicaux. RAPS travaille avec des personnes polarisées depuis plus de dix ans, en adoptant une approche sans jugement qui ne cherche pas à changer les opinions des gens."
+      },
+      {
+        "tag": "Mission",
+        "title": "Qui nous aidons.",
+        "body": "En collaboration avec des partenaires régionaux, nous offrons du soutien aux personnes et aux familles partout au Québec qui sont touchées par le climat social actuel, qui cause de la détresse à plusieurs. Dans cette initiative en ligne précise, nous espérons rejoindre les personnes dans le besoin là où elles se trouvent. Nous souhaitons offrir un soutien adapté aux personnes qui ont de la difficulté à se faire entendre, afin de réduire leur détresse potentielle tout en restant confidentiels."
+      },
+      {
+        "tag": "Vie privée",
+        "title": "Confidentialité.",
+        "body": "En ce qui concerne la confidentialité, nous ne partagerons rien de ce que tu nous confies avec qui que ce soit en dehors de notre équipe sans ton consentement, à moins que ce soit absolument nécessaire. La loi nous oblige à signaler certaines choses, comme l'intention de commettre des actes de violence envers toi-même ou autrui, ou la négligence ou la violence envers des enfants. En dehors de ces circonstances très précises, tout reste entre nous."
+      }
+    ]
   },
   "Resources": {
     "hero": {
       "badge": "Gratuit / ressources communautaires",
-      "titleLead": "Ressources",
+      "titleLead": "Des ressources",
       "titleEmphasis": "utiles.",
-      "subtitle": "Une liste grandissante de ressources communautaires partout au Québec. Commence par ce dont tu as besoin aujourd'hui."
+      "subtitle": "Une liste grandissante de ressources communautaires partout au Québec."
     },
     "general": {
       "tag": "Commence ici",
       "heading": "De l'aide<br></br>partout au Québec.",
-      "subtitle": "Tu ne sais pas par où commencer? Le 211 te met en lien avec des organismes communautaires et des programmes près de chez toi.",
-      "regionLead": "Pour de l'information sur les ressources dans ta région, écris-nous à",
+      "subtitle": "Tu ne sais pas par où commencer? Le 211 te met en contact avec des organismes et des programmes communautaires près de chez toi.",
+      "regionLead": "Pour de l'information sur les ressources de ta région, écris-nous à",
       "regionEmail": "here@hadit.ca",
       "card": {
         "scope": "Partout au Québec",
         "title": "211 Québec",
-        "body": "Le 211 est un service qui met les gens en contact avec des organismes communautaires et des programmes à proximité.",
+        "body": "Le 211 est un service qui aide à mettre les gens en contact avec des organismes et des programmes communautaires à proximité.",
         "phoneLabel": "Téléphone",
         "phone": "211",
         "phoneHref": "tel:211",
         "websiteLabel": "Site web",
         "website": "211quebecregions.ca",
-        "websiteHref": "https://www.211quebecregions.ca/fr/"
+        "websiteHref": "https://www.211quebecregions.ca/en/"
       }
     },
     "food": {
-      "tag": "Nourriture",
+      "tag": "Alimentation",
       "heading": "Besoin d'un<br></br>repas?",
       "subtitle": "Banques alimentaires et cuisines communautaires partout au Québec.",
       "visitCta": "Visiter le site →",
       "items": {
         "cantineStJacques": {
           "city": "Montréal",
-          "title": "Cantine des Œuvres St-Jacques",
+          "title": "Cantine des Oeuvres St-Jacques",
           "body": "Cuisine communautaire qui sert des repas à Montréal.",
           "href": "http://cantinestjacques.com/"
         },
         "moissonQuebec": {
           "city": "Ville de Québec",
-          "title": "Moisson Québec",
-          "body": "Banque alimentaire de la région de Québec.",
+          "title": "Moisson Quebec",
+          "body": "Banque alimentaire qui dessert la région de Québec.",
           "href": "https://moissonquebec.com/"
         },
         "moissonOutaouais": {
           "city": "Gatineau",
           "title": "Moisson Outaouais",
-          "body": "Banque alimentaire de la région de l'Outaouais.",
-          "href": "https://www.moissonoutaouais.com/"
+          "body": "Banque alimentaire qui dessert la région de l'Outaouais.",
+          "href": "https://www.moissonoutaouais.com/en/"
         },
         "moissonEstrie": {
           "city": "Sherbrooke",
           "title": "Moisson Estrie",
-          "body": "Banque alimentaire de la région de l'Estrie.",
-          "href": "https://www.moissonestrie.com/"
+          "body": "Banque alimentaire qui dessert la région de l'Estrie.",
+          "href": "https://www.moissonestrie.com/en/"
         }
       }
     },
     "housing": {
       "tag": "Logement",
-      "heading": "Besoin d'un endroit<br></br>où rester?",
-      "subtitle": "Ressources en logement et hébergement partout au Québec.",
+      "heading": "Besoin d'un<br></br>toit?",
+      "subtitle": "Ressources en logement et hébergements partout au Québec.",
       "visitCta": "Visiter le site →",
       "items": {
         "dansLaRue": {
           "city": "Montréal",
           "title": "Dans La Rue",
-          "body": "Aide pour trouver un logement et soutien aux jeunes à Montréal.",
-          "href": "https://danslarue.org/ou-trouver-de-laide/appartements/"
+          "body": "Aide à la recherche d'appartements et soutien pour les jeunes à Montréal.",
+          "href": "https://danslarue.org/en/where-to-find-help/apartments/"
         },
         "villeQuebec": {
           "city": "Ville de Québec",
-          "title": "Ville de Québec — logement",
-          "body": "Ressources et informations sur le logement pour les résidents de Québec.",
+          "title": "Ville de Québec logement",
+          "body": "Ressources et informations en logement pour les résidents de la Ville de Québec.",
           "href": "https://www.ville.quebec.qc.ca/citoyens/propriete/logement.aspx"
         },
         "gatineauHousing": {
           "city": "Gatineau",
-          "title": "Logements abordables — Gatineau",
-          "body": "Informations sur les logements abordables de la Ville de Gatineau.",
+          "title": "Logement Gatineau",
+          "body": "Information sur le logement abordable de la Ville de Gatineau.",
           "href": "https://www.gatineau.ca/portail/default.aspx?p=guichet_municipal/logements_abordables"
         },
         "omhSherbrooke": {
@@ -372,9 +384,9 @@
       "items": {
         "telAideMontreal": {
           "city": "Montréal",
-          "title": "Tel-Aide Montréal",
+          "title": "Tel-Aide Montreal",
           "body": "Ligne d'écoute gratuite, anonyme et confidentielle pour la région de Montréal.",
-          "href": "https://telaidemontreal.org/"
+          "href": "https://telaidemontreal.org/en/"
         },
         "telAideQuebec": {
           "city": "Ville de Québec",
@@ -385,7 +397,7 @@
         "centreAide247": {
           "city": "Gatineau",
           "title": "Centre d'aide 24/7",
-          "body": "Ligne d'écoute et d'aide disponible en tout temps dans l'Outaouais.",
+          "body": "Ligne d'écoute et d'aide disponible jour et nuit dans la région de l'Outaouais.",
           "href": "https://centredaide247.com/"
         },
         "secoursAmitieEstrie": {

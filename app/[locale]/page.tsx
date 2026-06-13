@@ -222,10 +222,7 @@ export default function Home() {
                 })}
               </h2>
               <p className="mt-6 text-base md:text-lg font-medium leading-snug">
-                {t('about.p1')}
-              </p>
-              <p className="mt-4 text-base md:text-lg font-medium leading-snug">
-                {t('about.p2')}
+                {t('about.blurb')}
               </p>
               <div className="mt-8">
                 <Link

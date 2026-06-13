@@ -231,9 +231,8 @@
     "about": {
       "tag": "Who are we?",
       "heading": "People who<br></br>can <em>help.</em>",
+      "blurb": "We're trained responders offering free, confidential, non-judgmental support to anyone weighed down by today's social climate.",
       "cta": "Learn more →",
-      "p1": "We are trained responders that work in collaboration with the Action Research on Social Polarisation (RAPS) team in Montréal, a multi-disciplinary team offering services that include social support, community engagement, psychotherapy, psychiatry, and access to medical services.",
-      "p2": "In conjunction with regional partners, we provide support to individuals and families throughout Québec who are affected by the present social climate, which causes distress to many.",
       "stats": {
         "confidential": { "n": "100%", "l": "Confidential" },
         "cost": { "n": "0$", "l": "Cost to you" },
@@ -266,6 +265,28 @@
       }
     }
   },
+  "About": {
+    "badge": "About us",
+    "title": "Who are we?",
+    "subtitle": "People who can help",
+    "sections": [
+      {
+        "tag": "Team",
+        "title": "Our team.",
+        "body": "We are trained responders that work in collaboration with the Action Research on Social Polarisation (RAPS) team in Montréal, a multi-disciplinary team offering services that include social support, community engagement, psychotherapy, psychiatry, and access to medical services. RAPS has been working with polarised individuals for over ten years, using a non-judgmental approach that does not look to change people's opinions."
+      },
+      {
+        "tag": "Mission",
+        "title": "Who we help.",
+        "body": "In conjunction with regional partners, we provide support to individuals and families throughout Québec who are affected by the present social climate, which causes distress to many. In this specific online initiative we hope to reach people in need where they're at. We hope to offer adapted support to individuals who have a hard time being heard, to reduce their potential distress while staying confidential."
+      },
+      {
+        "tag": "Privacy",
+        "title": "Confidentiality.",
+        "body": "On the topic of confidentiality, we will not share anything you discuss with us with anyone outside our team without your consent or unless absolutely necessary. We are bound by law to report certain things like a decision to act out violence towards yourself or others or negligence or violence committed towards children. Outside of these very specific circumstances, things stay between us."
+      }
+    ]
+  },
   "Resources": {
     "hero": {
       "badge": "Free / community resources",
@@ -288,7 +309,7 @@
         "phoneHref": "tel:211",
         "websiteLabel": "Website",
         "website": "211quebecregions.ca",
-        "websiteHref": "https://www.211quebecregions.ca/en/"
+        "websiteHref": "https://www.211quebecregions.ca/"
       }
     },
     "food": {
