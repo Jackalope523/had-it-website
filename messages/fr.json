@@ -334,13 +334,13 @@
           "city": "Gatineau",
           "title": "Moisson Outaouais",
           "body": "Banque alimentaire qui dessert la région de l'Outaouais.",
-          "href": "https://www.moissonoutaouais.com/en/"
+          "href": "https://www.moissonoutaouais.com/"
         },
         "moissonEstrie": {
           "city": "Sherbrooke",
           "title": "Moisson Estrie",
           "body": "Banque alimentaire qui dessert la région de l'Estrie.",
-          "href": "https://www.moissonestrie.com/en/"
+          "href": "https://www.moissonestrie.com/"
         }
       }
     },
