@@ -50,119 +50,106 @@
         "row1": {
           "stuck": "Feeling stuck?",
           "hadEnough": "Had enough?",
-          "stressed": "Stressed?",
+          "stressed": "Worried?",
+          "nobodyListening": "Nobody to talk to?"
+        },
+        "row2": {
+          "misunderstood": "Feel misunderstood?",
+          "nothingLeft": "Need support?",
+          "lifeUnfair": "Life not fair?",
+          "stuck": "Feeling lost?",
+          "needHelp": "Need help?"
+        },
+        "row3": {
+          "worldUnjust": "World is unjust?",
+          "hated": "Want a change?",
+          "excluded": "Looking for a way out?",
+          "trapped": "Trapped?"
+        }
+      },
+      "xenophobic": {
+        "row1": {
+          "targeted": "Feeling isolated?",
+          "blamed": "Had enough?",
+          "notWelcome": "Full of anger?",
+          "watched": "Nobody listening?"
+        },
+        "row2": {
+          "judgedForOrigin": "Feel misunderstood?",
+          "treatedDifferent": "Nothing left to lose?",
+          "scared": "World feels rigged?",
+          "alone": "Feeling stuck?",
+          "voicelessHere": "Losing control?"
+        },
+        "row3": {
+          "hated": "World is unjust?",
+          "threatened": "Your ideas provoke?",
+          "unsafeOutside": "Hated?",
+          "silenced": "Excluded?"
+        }
+      },
+      "antiAuthority": {
+        "row1": {
+          "stuck": "Feeling stuck?",
+          "hadEnough": "Had enough?",
+          "stressed": "Stressed?", 
+          "nobodyListening": "Nobody listening?"
+        },
+        "row2": {
+          "misunderstood": "Feel misunderstood?",
+          "nothingLeft": "Nothing left to lose?",
+          "lifeUnfair": "Life feels rigged?",
+          "stuck": "Feeling stuck?",
+          "needHelp": "Need help?"
+        },
+        "row3": {
+          "worldBroken": "World is broken?", 
+          "revolt": "Want to revolt?",
+          "ignored": "Ignored and excluded?", 
+          "angry": "Angry with the world?"
+        }
+      },
+      "genderBased": {
+        "row1": {
+          "stuck": "Feeling stuck?",
+          "hadEnough": "Had enough?",
+          "connect": "Struggling to connect?",
           "nobodyListening": "Nobody listening?"
         },
         "row2": {
           "misunderstood": "Feel misunderstood?",
           "nothingLeft": "Nothing left to lose?",
           "lifeUnfair": "Life not fair?",
-          "stuck": "Feeling stuck?",
-          "concernedForOthers": "Concerned for family or friends?",
+          "invisible": "Feeling invisible?",
           "needHelp": "Need help?"
         },
         "row3": {
-          "worldUnjust": "World is unjust?",
+          "anger": "Getting angrier?", 
           "bullied": "Bullied?",
-          "hated": "Hated?",
-          "excluded": "Excluded?",
-          "trapped": "Trapped?"
-        }
-      },
-      "xenophobic": {
-        "label": "Xenophobic violence",
-        "row1": {
-          "targeted": "Targeted for who you are?",
-          "blamed": "Blamed for where you're from?",
-          "notWelcome": "Made to feel unwelcome?",
-          "watched": "Always being watched?"
-        },
-        "row2": {
-          "judgedForOrigin": "Judged by your background?",
-          "treatedDifferent": "Treated differently?",
-          "scared": "Scared to go out?",
-          "alone": "No one who gets it?",
-          "voicelessHere": "No voice here?",
-          "tooMuch": "It's becoming too much?"
-        },
-        "row3": {
-          "hated": "Hated for who you are?",
-          "threatened": "Threatened?",
-          "unsafeOutside": "Unsafe in public?",
-          "silenced": "Silenced?",
-          "invisible": "Feeling invisible?"
-        }
-      },
-      "antiAuthority": {
-        "label": "Anti-authority violence",
-        "row1": {
-          "systemFailed": "System failed you?",
-          "ignoredByPower": "Ignored by those in power?",
-          "rulesUnfair": "Rules feel rigged?",
-          "fedUp": "Fed up?"
-        },
-        "row2": {
-          "noOneInCharge": "No one taking responsibility?",
-          "lawAgainstYou": "Law working against you?",
-          "betrayed": "Betrayed by institutions?",
-          "ignored": "Repeatedly ignored?",
-          "neverHeard": "Never been heard?",
-          "boilingOver": "Anger boiling over?"
-        },
-        "row3": {
-          "powerless": "Powerless?",
-          "surveilled": "Constantly surveilled?",
-          "treatedLikeNumber": "Treated like a number?",
-          "abandoned": "Abandoned by the system?",
-          "trapped": "Trapped?"
-        }
-      },
-      "genderBased": {
-        "label": "Gender-based violence",
-        "row1": {
-          "notSafeHome": "Not safe at home?",
-          "controlled": "Being controlled?",
-          "scared": "Scared of someone close?",
-          "watched": "Every move watched?"
-        },
-        "row2": {
-          "blamed": "Blamed for what happened?",
-          "isolatedFromOthers": "Cut off from friends or family?",
-          "walkingOnEggshells": "Walking on eggshells?",
-          "threatened": "Being threatened?",
-          "judgedForBody": "Judged for your body?",
-          "ashamed": "Carrying shame?"
-        },
-        "row3": {
-          "trapped": "Trapped?",
-          "silenced": "Silenced?",
-          "hurt": "Being hurt?",
-          "notBelieved": "Not believed?",
-          "alone": "Feeling alone in it?"
+          "ignored": "Often ignored?", 
+          "rejected": "Feeling rejected?",
+          "hopeless": "Hopeless?"
         }
       },
       "grievance": {
-        "label": "Other grievance-driven",
         "row1": {
-          "wronged": "Been wronged?",
-          "ignored": "Ignored?",
-          "dismissed": "Dismissed?",
-          "fedUp": "Fed up?"
+          "anger": "Feeling angry?",
+          "hadEnough": "Had enough?",
+          "numb": "Numb to violence?", 
+          "isolated": "Isolated?"
         },
         "row2": {
-          "noJustice": "No justice for you?",
-          "lostEverything": "Lost everything?",
-          "blamedUnfairly": "Blamed unfairly?",
-          "treatedUnfairly": "Treated unfairly?",
-          "owedSomething": "Owed something no one's giving?",
-          "taken": "Something taken from you?"
+          "misunderstood": "Feel misunderstood?",
+          "nothingLeft": "Nothing left to lose?",
+          "lifeUnfair": "Life not fair?",
+          "stuck": "Feeling stuck?",
+          "needHelp": "Need help?"
         },
         "row3": {
-          "angry": "Angry?",
-          "resentful": "Resentful?",
-          "betrayed": "Betrayed?",
-          "forgotten": "Forgotten?",
-          "bitter": "Turning bitter?"
+          "worldEnding": "World is ending?", 
+          "act": "Looking to act?",
+          "gore": "Attracted to gore?",
+          "trapped": "Trapped?"
         }
       }
     },
@@ -244,6 +231,7 @@
     "about": {
       "tag": "Who are we?",
       "heading": "People who<br></br>can <em>help.</em>",
+      "cta": "Learn more →",
       "p1": "We are trained responders that work in collaboration with the Action Research on Social Polarisation (RAPS) team in Montréal, a multi-disciplinary team offering services that include social support, community engagement, psychotherapy, psychiatry, and access to medical services.",
       "p2": "In conjunction with regional partners, we provide support to individuals and families throughout Québec who are affected by the present social climate, which causes distress to many.",
       "stats": {

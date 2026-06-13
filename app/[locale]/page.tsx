@@ -1,4 +1,5 @@
 import { useTranslations } from 'next-intl';
+import { Link } from '@/i18n/navigation';
 
 const BORDER = 'border-[3px] border-black';
 const SHADOW = 'shadow-[5px_5px_0_0_#000] md:shadow-[6px_6px_0_0_#000]';
@@ -259,6 +260,13 @@ export default function Home() {
               <p className="mt-4 text-base md:text-lg font-medium leading-snug">
                 {t('about.p2')}
               </p>
+              <div className="mt-8">
+                <Link
+                  href="/about"
+                  className={`inline-block bg-black text-white px-6 py-4 font-black uppercase ${BORDER} ${SHADOW_LG} ${PRESS}`}>
+                  {t('about.cta')}
+                </Link>
+              </div>
             </div>
 
             <div className="md:col-span-5 grid grid-cols-2 gap-4">
