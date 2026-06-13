@@ -46,8 +46,6 @@ const WAY_CARDS = [
 const HESITATING_KEYS = [
   'notInCrisis',
   'anonymity',
-  'confidentiality',
-  'dontKnowWhatToSay',
   'justVent',
   'reallyFree',
 ] as const;
@@ -60,8 +58,6 @@ const FAQ_KEYS = [
   'location',
   'afterReachOut',
   'callback',
-  'notTherapy',
-  'funding',
 ] as const;
 
 function MarqueeRow({
@@ -378,4 +374,3 @@ export default function Home() {
     </div>
   );
 }
-

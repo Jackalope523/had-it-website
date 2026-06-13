@@ -25,8 +25,28 @@
   },
   "Home": {
     "concerns": {
+      "main": {
+        "row1": {
+          "stuck": "Feeling stuck?",
+          "hadEnough": "Had enough?",
+          "stressed": "Stressed?",
+          "nobodyListening": "Nobody listening?"
+        },
+        "row2": {
+          "misunderstood": "Feel misunderstood?",
+          "nothingLeft": "Nothing left to lose?",
+          "lifeUnfair": "Life not fair?",
+          "stuck": "Feeling stuck?",
+          "needHelp": "Need help?"
+        },
+        "row3": {
+          "worldUnjust": "World is unjust?",
+          "hated": "Hated?",
+          "excluded": "Excluded?",
+          "trapped": "Trapped?"
+        }
+      },
       "disengagement": {
-        "label": "Disengagement",
         "row1": {
           "stuck": "Feeling stuck?",
           "hadEnough": "Had enough?",
@@ -150,7 +170,7 @@
       "badge": "Free / confidential / Quebec",
       "titleLead": "We're here to",
       "titleEmphasis": "listen.",
-      "subtitle": "Whatever you're carrying drop it here. You can contact us for confidential support."
+      "subtitle": "You can contact us here for confidential support."
     },
     "ways": {
       "tag": "Ways to reach us",
@@ -163,9 +183,9 @@
         "cta": "Start chatting"
       },
       "phone": {
-        "tag": "8am – midnight",
+        "tag": "5pm – 9pm",
         "title": "Phone",
-        "body": "Hear a voice on the other end. Sometimes that's what helps most.",
+        "body": "Try calling us. We're here to listen.",
         "cta": "Call 514-268-4505"
       },
       "text": {
@@ -177,7 +197,7 @@
       "email": {
         "tag": "Reply ≤24h",
         "title": "Email",
-        "body": "Write as little or as much as you want. No subject required.",
+        "body": "If you prefer emailing us, go ahead.",
         "cta": "here@hadit.ca"
       }
     },
@@ -187,28 +207,20 @@
       "youLabel": "You",
       "usLabel": "Us",
       "notInCrisis": {
-        "you": "I'm not in crisis. I shouldn't take up space.",
-        "us": "You don't need to be in crisis. If something's sitting heavy, that's enough."
+        "you": "I'm not in crisis. I don't need help.",
+        "us": "You don't need to be in crisis or to want help, sometimes it can just be nice to talk to someone who'll listen."
       },
       "anonymity": {
         "you": "I don't want my name on anything.",
         "us": "You don't have to give one. Chat, text, and email are anonymous by default."
       },
-      "confidentiality": {
-        "you": "What if you tell my family / partner / boss?",
-        "us": "We don't. The only exception is immediate risk to life — and we'll walk you through what happens."
-      },
-      "dontKnowWhatToSay": {
-        "you": "I don't even know what to say.",
-        "us": "Start with one word. \"Hi.\" \"Tired.\" \"Stuck.\" We'll take it from there."
-      },
       "justVent": {
         "you": "I just want to vent, not get advice.",
-        "us": "Then vent. We're trained to listen, not to fix."
+        "us": "You can talk to us. We're here to listen."
       },
       "reallyFree": {
         "you": "Is it really free?",
-        "us": "Yes. No fees, no insurance, no follow-up marketing. Ever."
+        "us": "Yes."
       },
       "cta": "Ok. I'll try →"
     },
@@ -232,7 +244,7 @@
     "about": {
       "tag": "Who are we?",
       "heading": "People who<br></br>can <em>help.</em>",
-      "p1": "We work in collaboration with RAPS, a multi-disciplinary team offering services that include social support, community engagement, psychotherapy, psychiatry, and access to medical services.",
+      "p1": "We are trained responders that work in collaboration with the Action Research on Social Polarisation (RAPS) team in Montréal, a multi-disciplinary team offering services that include social support, community engagement, psychotherapy, psychiatry, and access to medical services.",
       "p2": "In conjunction with regional partners, we provide support to individuals and families throughout Québec who are affected by the present social climate, which causes distress to many.",
       "stats": {
         "confidential": { "n": "100%", "l": "Confidential" },
@@ -246,11 +258,11 @@
       "heading": "Do you have more<br></br><em>questions?</em>",
       "hours": {
         "q": "What hours are you open?",
-        "a": "Phone: 8 a.m. to midnight, every day. Email and text are monitored 24 hours and we reply within a day. Live chat is open whenever a responder is online — usually during phone hours."
+        "a": "Phone: 5 p.m. 9 p.m., every day. Email and text are monitored 24 hours and we reply within a day. Live chat is open whenever a responder is online usually during phone hours."
       },
       "languages": {
         "q": "What languages do you speak?",
-        "a": "We respond in English and French. Let us know which you prefer when you reach out — or just write in whichever feels easier."
+        "a": "We respond in English and French. Let us know which you prefer when you reach out or just write in whichever feels easier."
       },
       "location": {
         "q": "Do I have to live in Quebec?",
@@ -263,14 +275,6 @@
       "callback": {
         "q": "Will you call me back if I don't answer?",
         "a": "Only if you explicitly asked us to. Otherwise we wait for you to come back when you're ready."
-      },
-      "notTherapy": {
-        "q": "Are you a replacement for therapy or a crisis line?",
-        "a": "No. We're a place to be heard. If you're in immediate danger, please call 911. For ongoing care, 811 (option 2) can connect you with longer-term services."
-      },
-      "funding": {
-        "q": "How is this funded?",
-        "a": "We operate as a not-for-profit service. There's no cost to you and no third party gets your information."
       }
     }
   },
@@ -279,7 +283,7 @@
       "badge": "Free / community resources",
       "titleLead": "Helpful",
       "titleEmphasis": "resources.",
-      "subtitle": "A growing list of community resources across Quebec. Start with what you need today."
+      "subtitle": "A growing list of community resources across Quebec."
     },
     "general": {
       "tag": "Start here",
