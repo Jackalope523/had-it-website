@@ -7,35 +7,7 @@ const SHADOW_LG = 'shadow-[6px_6px_0_0_#000] md:shadow-[10px_10px_0_0_#000]';
 const PRESS =
   'transition-all active:translate-x-[3px] active:translate-y-[3px] active:shadow-[2px_2px_0_0_#000] md:hover:translate-x-[3px] md:hover:translate-y-[3px] md:hover:shadow-[3px_3px_0_0_#000]';
 
-const DEFAULT_FEELING_COLOR = 'bg-white';
-
-type Feeling = { key: string; color?: string };
-
-const ACTIVE_CONCERN = 'disengagement';
-
-const ROW1: readonly Feeling[] = [
-  { key: 'stuck' },
-  { key: 'hadEnough' },
-  { key: 'stressed', color: 'bg-[#22d3ee]' },
-  { key: 'nobodyListening' },
-];
-
-const ROW2: readonly Feeling[] = [
-  { key: 'misunderstood' },
-  { key: 'nothingLeft' },
-  { key: 'lifeUnfair' },
-  { key: 'stuck', color: 'bg-yellow-300' },
-  { key: 'concernedForOthers' },
-  { key: 'needHelp', color: 'bg-orange-300' },
-];
-
-const ROW3: readonly Feeling[] = [
-  { key: 'worldUnjust' },
-  { key: 'bullied' },
-  { key: 'hated' },
-  { key: 'excluded' },
-  { key: 'trapped', color: 'bg-[#ff5fa2]' },
-];
+const ACTIVE_CONCERN = 'main';
 
 const WAY_CARDS = [
   { key: 'chat', href: '#how', color: 'bg-[#ff5fa2]' },
@@ -66,7 +38,7 @@ function MarqueeRow({
   reverse = false,
   textClass = 'text-3xl md:text-5xl',
 }: {
-  items: { label: string; color?: string }[];
+  items: string[];
   reverse?: boolean;
   textClass?: string;
 }) {
@@ -84,10 +56,8 @@ function MarqueeRow({
         {extendedItems.map((item, i) => (
           <span
             key={i}
-            className={`mx-2 my-1 inline-flex items-center ${
-              item.color ?? DEFAULT_FEELING_COLOR
-            } ${BORDER} px-4 py-2 font-black uppercase tracking-tight whitespace-nowrap ${textClass}`}>
-            {item.label}
+            className={`mx-2 my-1 inline-flex items-center bg-white ${BORDER} px-4 py-2 font-black uppercase tracking-tight whitespace-nowrap ${textClass}`}>
+            {item}
           </span>
         ))}
       </div>
@@ -97,18 +67,15 @@ function MarqueeRow({
 
 export default function Home() {
   const t = useTranslations('Home');
-  const feelings1 = ROW1.map((f) => ({
-    label: t(`concerns.${ACTIVE_CONCERN}.row1.${f.key}`),
-    color: f.color,
-  }));
-  const feelings2 = ROW2.map((f) => ({
-    label: t(`concerns.${ACTIVE_CONCERN}.row2.${f.key}`),
-    color: f.color,
-  }));
-  const feelings3 = ROW3.map((f) => ({
-    label: t(`concerns.${ACTIVE_CONCERN}.row3.${f.key}`),
-    color: f.color,
-  }));
+  const feelings1 = Object.values(
+    t.raw(`concerns.${ACTIVE_CONCERN}.row1`) as Record<string, string>,
+  );
+  const feelings2 = Object.values(
+    t.raw(`concerns.${ACTIVE_CONCERN}.row2`) as Record<string, string>,
+  );
+  const feelings3 = Object.values(
+    t.raw(`concerns.${ACTIVE_CONCERN}.row3`) as Record<string, string>,
+  );
 
   return (
     <div className="flex-1 bg-[#f9f5f2] text-[#282924] font-sans">
