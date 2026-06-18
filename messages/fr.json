@@ -50,42 +50,42 @@
         "row1": {
           "stuck": "Tu te sens coincé?",
           "hadEnough": "Tu en as assez?",
-          "stressed": "Inquiet?",
-          "nobodyListening": "Personne à qui parler?"
+          "worried": "Inquiet?",
+          "nobodyToTalk": "Personne à qui parler?"
         },
         "row2": {
           "misunderstood": "Tu te sens incompris?",
-          "nothingLeft": "Besoin de soutien?",
+          "needSupport": "Besoin de soutien?",
           "lifeUnfair": "La vie est injuste?",
-          "stuck": "Tu te sens perdu?",
+          "lost": "Tu te sens perdu?",
           "needHelp": "Besoin d'aide?"
         },
         "row3": {
           "worldUnjust": "Le monde est injuste?",
-          "hated": "Envie de changement?",
-          "excluded": "Tu cherches une issue?",
+          "wantChange": "Envie de changement?",
+          "wayOut": "Tu cherches une issue?",
           "trapped": "Pris au piège?"
         }
       },
       "xenophobic": {
         "row1": {
-          "targeted": "Tu te sens isolé?",
-          "blamed": "Tu en as assez?",
-          "notWelcome": "Rempli de colère?",
-          "watched": "Personne ne t'écoute?"
+          "isolated": "Tu te sens isolé?",
+          "hadEnough": "Tu en as assez?",
+          "fullOfAnger": "Rempli de colère?",
+          "nobodyListening": "Personne ne t'écoute?"
         },
         "row2": {
-          "judgedForOrigin": "Tu te sens incompris?",
-          "treatedDifferent": "Plus rien à perdre?",
-          "scared": "Le monde semble truqué?",
-          "alone": "Tu te sens coincé?",
-          "voicelessHere": "Tu perds le contrôle?"
+          "misunderstood": "Tu te sens incompris?",
+          "nothingLeft": "Plus rien à perdre?",
+          "worldRigged": "Le monde semble truqué?",
+          "stuck": "Tu te sens coincé?",
+          "losingControl": "Tu perds le contrôle?"
         },
         "row3": {
-          "hated": "Le monde est injuste?",
-          "threatened": "Tes idées dérangent?",
-          "unsafeOutside": "Détesté?",
-          "silenced": "Exclu?"
+          "worldUnjust": "Le monde est injuste?",
+          "ideasProvoke": "Tes idées dérangent?",
+          "hated": "Détesté?",
+          "excluded": "Exclu?"
         }
       },
       "antiAuthority": {
@@ -98,7 +98,7 @@
         "row2": {
           "misunderstood": "Tu te sens incompris?",
           "nothingLeft": "Plus rien à perdre?",
-          "lifeUnfair": "La vie semble truquée?",
+          "lifeRigged": "La vie semble truquée?",
           "stuck": "Tu te sens coincé?",
           "needHelp": "Besoin d'aide?"
         },

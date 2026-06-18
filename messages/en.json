@@ -50,42 +50,42 @@
         "row1": {
           "stuck": "Feeling stuck?",
           "hadEnough": "Had enough?",
-          "stressed": "Worried?",
-          "nobodyListening": "Nobody to talk to?"
+          "worried": "Worried?",
+          "nobodyToTalk": "Nobody to talk to?"
         },
         "row2": {
           "misunderstood": "Feel misunderstood?",
-          "nothingLeft": "Need support?",
+          "needSupport": "Need support?",
           "lifeUnfair": "Life not fair?",
-          "stuck": "Feeling lost?",
+          "lost": "Feeling lost?",
           "needHelp": "Need help?"
         },
         "row3": {
           "worldUnjust": "World is unjust?",
-          "hated": "Want a change?",
-          "excluded": "Looking for a way out?",
+          "wantChange": "Want a change?",
+          "wayOut": "Looking for a way out?",
           "trapped": "Trapped?"
         }
       },
       "xenophobic": {
         "row1": {
-          "targeted": "Feeling isolated?",
-          "blamed": "Had enough?",
-          "notWelcome": "Full of anger?",
-          "watched": "Nobody listening?"
+          "isolated": "Feeling isolated?",
+          "hadEnough": "Had enough?",
+          "fullOfAnger": "Full of anger?",
+          "nobodyListening": "Nobody listening?"
         },
         "row2": {
-          "judgedForOrigin": "Feel misunderstood?",
-          "treatedDifferent": "Nothing left to lose?",
-          "scared": "World feels rigged?",
-          "alone": "Feeling stuck?",
-          "voicelessHere": "Losing control?"
+          "misunderstood": "Feel misunderstood?",
+          "nothingLeft": "Nothing left to lose?",
+          "worldRigged": "World feels rigged?",
+          "stuck": "Feeling stuck?",
+          "losingControl": "Losing control?"
         },
         "row3": {
-          "hated": "World is unjust?",
-          "threatened": "Your ideas provoke?",
-          "unsafeOutside": "Hated?",
-          "silenced": "Excluded?"
+          "worldUnjust": "World is unjust?",
+          "ideasProvoke": "Your ideas provoke?",
+          "hated": "Hated?",
+          "excluded": "Excluded?"
         }
       },
       "antiAuthority": {
@@ -98,7 +98,7 @@
         "row2": {
           "misunderstood": "Feel misunderstood?",
           "nothingLeft": "Nothing left to lose?",
-          "lifeUnfair": "Life feels rigged?",
+          "lifeRigged": "Life feels rigged?",
           "stuck": "Feeling stuck?",
           "needHelp": "Need help?"
         },
