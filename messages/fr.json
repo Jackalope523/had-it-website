@@ -28,7 +28,7 @@
       "main": {
         "row1": {
           "stuck": "Tu te sens coincé?",
-          "hadEnough": "Tu en as assez?",
+          "hadEnough": "T'en as assez?",
           "stressed": "Stressé?",
           "nobodyListening": "Personne ne t'écoute?"
         },
@@ -41,7 +41,7 @@
         },
         "row3": {
           "worldUnjust": "Le monde est injuste?",
-          "hated": "Détesté?",
+          "hated": "Parfois détesté?",
           "excluded": "Exclu?",
           "trapped": "Pris au piège?"
         }
@@ -49,7 +49,7 @@
       "disengagement": {
         "row1": {
           "stuck": "Tu te sens coincé?",
-          "hadEnough": "Tu en as assez?",
+          "hadEnough": "T'en as assez?",
           "worried": "Inquiet?",
           "nobodyToTalk": "Personne à qui parler?"
         },
@@ -63,14 +63,14 @@
         "row3": {
           "worldUnjust": "Le monde est injuste?",
           "wantChange": "Envie de changement?",
-          "wayOut": "Tu cherches une issue?",
+          "wayOut": "Tu cherches une sortie?",
           "trapped": "Pris au piège?"
         }
       },
       "xenophobic": {
         "row1": {
           "isolated": "Tu te sens isolé?",
-          "hadEnough": "Tu en as assez?",
+          "hadEnough": "T'en as assez?",
           "fullOfAnger": "Rempli de colère?",
           "nobodyListening": "Personne ne t'écoute?"
         },
@@ -84,14 +84,14 @@
         "row3": {
           "worldUnjust": "Le monde est injuste?",
           "ideasProvoke": "Tes idées dérangent?",
-          "hated": "Détesté?",
+          "hated": "Parfois détesté?",
           "excluded": "Exclu?"
         }
       },
       "antiAuthority": {
         "row1": {
           "stuck": "Tu te sens coincé?",
-          "hadEnough": "Tu en as assez?",
+          "hadEnough": "T'en as assez?",
           "stressed": "Stressé?",
           "nobodyListening": "Personne ne t'écoute?"
         },
@@ -103,7 +103,7 @@
           "needHelp": "Besoin d'aide?"
         },
         "row3": {
-          "worldBroken": "Le monde est brisé?",
+          "worldBroken": "Le monde s'effondre?",
           "revolt": "Envie de te révolter?",
           "ignored": "Ignoré et exclu?",
           "angry": "En colère contre le monde?"
@@ -112,7 +112,7 @@
       "genderBased": {
         "row1": {
           "stuck": "Tu te sens coincé?",
-          "hadEnough": "Tu en as assez?",
+          "hadEnough": "T'en as assez?",
           "connect": "Du mal à créer des liens?",
           "nobodyListening": "Personne ne t'écoute?"
         },
@@ -134,7 +134,7 @@
       "grievance": {
         "row1": {
           "anger": "Tu ressens de la colère?",
-          "hadEnough": "Tu en as assez?",
+          "hadEnough": "T'en as assez?",
           "numb": "Insensible à la violence?",
           "isolated": "Isolé?"
         },
@@ -185,11 +185,11 @@
         "tag": "Réponse ≤ 24 h",
         "title": "Courriel",
         "body": "Si tu préfères nous écrire par courriel, vas-y.",
-        "cta": "here@hadit.ca"
+        "cta": "ici@ras-le-bol.ca" 
       }
     },
     "hesitating": {
-      "tag": "Des raisons de ne pas nous joindre",
+      "tag": "Incertitudes de nous joindre",
       "heading": "Tu hésites à nous contacter?",
       "youLabel": "Toi",
       "usLabel": "Nous",
@@ -202,11 +202,11 @@
         "us": "Tu n'as pas à le donner. Le clavardage, les textos et les courriels sont anonymes par défaut."
       },
       "justVent": {
-        "you": "Je veux juste me défouler, pas recevoir de conseils.",
+        "you": "Je veux juste qu'on m'écoute, pas recevoir de conseils.",
         "us": "Tu peux nous parler. On est là pour t'écouter."
       },
       "reallyFree": {
-        "you": "Est-ce vraiment gratuit?",
+        "you": "Est-ce que c'est vraiment gratuit?",
         "us": "Oui."
       },
       "cta": "D'accord. Je vais essayer →"
@@ -231,7 +231,7 @@
     "about": {
       "tag": "Qui sommes-nous?",
       "heading": "Des gens qui<br></br>peuvent <em>aider.</em>",
-      "blurb": "Nous sommes des intervenants formés qui offrent un soutien gratuit, confidentiel et sans jugement à toute personne accablée par le climat social actuel.",
+      "blurb": "Nous sommes des intervenants formés qui offrent un soutien gratuit, confidentiel et sans jugement à toute personne qui souffre du climat social actuel.",
       "cta": "En savoir plus →",
       "stats": {
         "confidential": { "n": "100 %", "l": "Confidentiel" },
@@ -249,7 +249,7 @@
       },
       "languages": {
         "q": "Quelles langues parlez-vous?",
-        "a": "Nous répondons en français et en anglais. Dis-nous laquelle tu préfères lorsque tu nous joins, ou écris simplement dans la langue qui te convient le mieux."
+        "a": "Nous répondons en français et en anglais. Dis-nous laquelle tu préfères lorsque tu nous contactes, ou écris simplement dans la langue qui te convient le mieux."
       },
       "location": {
         "q": "Dois-je habiter au Québec?",
@@ -261,7 +261,7 @@
       },
       "callback": {
         "q": "Allez-vous me rappeler si je ne réponds pas?",
-        "a": "Seulement si tu nous l'as explicitement demandé. Sinon, nous attendons que tu reviennes vers nous quand tu es prêt."
+        "a": "Seulement si tu nous l'as explicitement demandé. Sinon, nous attenderons que tu reviennes vers nous quand tu seras prêt."
       }
     }
   },
@@ -273,12 +273,12 @@
       {
         "tag": "Équipe",
         "title": "Notre équipe.",
-        "body": "Nous sommes des intervenants formés qui travaillent en collaboration avec l'équipe de Recherche-Action sur la Polarisation Sociale (RAPS) à Montréal, une équipe multidisciplinaire offrant des services qui incluent du soutien social, de l'engagement communautaire, de la psychothérapie, de la psychiatrie et un accès à des services médicaux. RAPS travaille avec des personnes polarisées depuis plus de dix ans, en adoptant une approche sans jugement qui ne cherche pas à changer les opinions des gens."
+        "body": "Nous sommes des intervenants qui travaillent en collaboration avec l'équipe de Recherche-Action sur les Polarisations Sociales (RAPS) à Montréal, une équipe multidisciplinaire offrant des services qui incluent du soutien social, de l'engagement communautaire, de la psychothérapie, de la psychiatrie et un accès à des services médicaux. RAPS travaille avec des personnes polarisées depuis plus de dix ans, en adoptant une approche sans jugement qui ne cherche pas à changer les opinions des gens."
       },
       {
         "tag": "Mission",
         "title": "Qui nous aidons.",
-        "body": "En collaboration avec des partenaires régionaux, nous offrons du soutien aux personnes et aux familles partout au Québec qui sont touchées par le climat social actuel, qui cause de la détresse à plusieurs. Dans cette initiative en ligne précise, nous espérons rejoindre les personnes dans le besoin là où elles se trouvent. Nous souhaitons offrir un soutien adapté aux personnes qui ont de la difficulté à se faire entendre, afin de réduire leur détresse potentielle tout en restant confidentiels."
+        "body": "En collaboration avec des partenaires régionaux, nous offrons du soutien aux personnes et aux familles partout au Québec qui sont touchées par le climat social actuel, qui cause de la détresse à plusieurs. Dans cette initiative en ligne, nous espérons rejoindre les personnes dans le besoin là où elles se trouvent. Nous souhaitons offrir un soutien adapté aux personnes qui ont de la difficulté à se faire entendre, afin de réduire leur détresse potentielle tout en restant confidentiels."
       },
       {
         "tag": "Vie privée",
