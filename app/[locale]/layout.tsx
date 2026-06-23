@@ -18,7 +18,16 @@ const workSans = Work_Sans({
   display: 'swap',
 });
 
-const SITE_URL = 'https://moonshot-website-beryl.vercel.app';
+// Canonical base URL per locale, derived from the routing domains so the
+// branded hostnames live in a single source of truth (i18n/routing.ts).
+const SITE_URL_BY_LOCALE: Record<string, string> = Object.fromEntries(
+  (routing.domains ?? []).map((domain) => [
+    domain.defaultLocale,
+    `https://${domain.domain}`,
+  ]),
+);
+const FALLBACK_SITE_URL =
+  SITE_URL_BY_LOCALE[routing.defaultLocale] ?? 'https://www.hadit.ca';
 
 export async function generateMetadata({
   params,
@@ -30,9 +39,10 @@ export async function generateMetadata({
   const title = t('title');
   const description = t('description');
   const ogTitle = t('ogTitle');
+  const siteUrl = SITE_URL_BY_LOCALE[locale] ?? FALLBACK_SITE_URL;
 
   return {
-    metadataBase: new URL(SITE_URL),
+    metadataBase: new URL(siteUrl),
     title,
     description,
     openGraph: {
@@ -68,7 +78,7 @@ export default async function RootLayout({
   const accepted = consent === 'accepted';
 
   return (
-    <html lang="en" className={`${workSans.variable} h-full antialiased`}>
+    <html lang={locale} className={`${workSans.variable} h-full antialiased`}>
       {accepted ? <GoogleTagManager gtmId="GTM-TT9958HQ" /> : null}
       <Script
         id="tawk-to"
@@ -87,4 +97,3 @@ export default async function RootLayout({
     </html>
   );
 }
-
