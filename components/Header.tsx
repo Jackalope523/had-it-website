@@ -3,6 +3,7 @@
 import { useEffect, useState } from 'react';
 import { useLocale, useTranslations } from 'next-intl';
 import { Link, usePathname } from '@/i18n/navigation';
+import { useSearchParams } from 'next/navigation';
 
 const BORDER = 'border-[3px] border-black';
 const SHADOW = 'shadow-[5px_5px_0_0_#000] md:shadow-[6px_6px_0_0_#000]';
@@ -16,6 +17,7 @@ export default function Header() {
   const t = useTranslations('Nav');
   const locale = useLocale();
   const pathname = usePathname();
+  const searchParams = useSearchParams();
   const otherLocale = locale === 'en' ? 'fr' : 'en';
   const otherLocaleLabel = otherLocale === 'fr' ? 'Français' : 'English';
 
@@ -61,7 +63,7 @@ export default function Header() {
 
         <div className="flex items-center gap-3">
           <Link
-            href={pathname}
+            href={{ pathname, query: Object.fromEntries(searchParams) }}
             locale={otherLocale}
             className={`bg-black text-white px-4 py-2 font-black uppercase text-xs md:text-sm ${BORDER} ${SHADOW} ${PRESS}`}>
             {otherLocaleLabel}

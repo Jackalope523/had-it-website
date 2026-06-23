@@ -1,5 +1,5 @@
-import { useTranslations } from 'next-intl';
 import { Link } from '@/i18n/navigation';
+import { getTranslations } from 'next-intl/server';
 
 const BORDER = 'border-[3px] border-black';
 const SHADOW = 'shadow-[5px_5px_0_0_#000] md:shadow-[6px_6px_0_0_#000]';
@@ -7,7 +7,7 @@ const SHADOW_LG = 'shadow-[6px_6px_0_0_#000] md:shadow-[10px_10px_0_0_#000]';
 const PRESS =
   'transition-all active:translate-x-[3px] active:translate-y-[3px] active:shadow-[2px_2px_0_0_#000] md:hover:translate-x-[3px] md:hover:translate-y-[3px] md:hover:shadow-[3px_3px_0_0_#000]';
 
-const ACTIVE_CONCERN = 'main';
+const DEFAULT_CONCERN = 'main';
 
 const WAY_CARDS = [
   { key: 'chat', href: '#how', color: 'bg-[#ff5fa2]' },
@@ -65,16 +65,33 @@ function MarqueeRow({
   );
 }
 
-export default function Home() {
-  const t = useTranslations('Home');
+export default async function Home({
+  searchParams,
+}: {
+  searchParams: Promise<{
+    concern?:
+      | 'main'
+      | 'disengagement'
+      | 'xenophobic'
+      | 'antiAuthority'
+      | 'genderBased'
+      | 'grievance';
+  }>;
+}) {
+  const t = await getTranslations('Home');
+
+  const { concern } = await searchParams;
+  const activeConcern =
+    concern && t.has(`concerns.${concern}.row1`) ? concern : DEFAULT_CONCERN;
+
   const feelings1 = Object.values(
-    t.raw(`concerns.${ACTIVE_CONCERN}.row1`) as Record<string, string>,
+    t.raw(`concerns.${activeConcern}.row1`) as Record<string, string>,
   );
   const feelings2 = Object.values(
-    t.raw(`concerns.${ACTIVE_CONCERN}.row2`) as Record<string, string>,
+    t.raw(`concerns.${activeConcern}.row2`) as Record<string, string>,
   );
   const feelings3 = Object.values(
-    t.raw(`concerns.${ACTIVE_CONCERN}.row3`) as Record<string, string>,
+    t.raw(`concerns.${activeConcern}.row3`) as Record<string, string>,
   );
 
   return (
