@@ -9,6 +9,15 @@ const PRESS =
 
 const DEFAULT_CONCERN = 'main';
 
+const CONCERN_CODES: Record<string, string> = {
+  '204815': 'main',
+  '530194': 'disengagement',
+  '617283': 'xenophobic',
+  '845706': 'antiAuthority',
+  '368726': 'genderBased',
+  '472951': 'grievance',
+};
+
 const WAY_CARDS = [
   { key: 'chat', href: '#how', color: 'bg-[#ff5fa2]' },
   { key: 'phone', href: 'tel:+15142684505', color: 'bg-lime-300' },
@@ -68,21 +77,16 @@ function MarqueeRow({
 export default async function Home({
   searchParams,
 }: {
-  searchParams: Promise<{
-    concern?:
-      | 'main'
-      | 'disengagement'
-      | 'xenophobic'
-      | 'antiAuthority'
-      | 'genderBased'
-      | 'grievance';
-  }>;
+  searchParams: Promise<{ c?: string }>;
 }) {
   const t = await getTranslations('Home');
 
-  const { concern } = await searchParams;
+  const { c } = await searchParams;
+  const codedConcern = c ? CONCERN_CODES[c] : undefined;
   const activeConcern =
-    concern && t.has(`concerns.${concern}.row1`) ? concern : DEFAULT_CONCERN;
+    codedConcern && t.has(`concerns.${codedConcern}.row1`)
+      ? codedConcern
+      : DEFAULT_CONCERN;
 
   const feelings1 = Object.values(
     t.raw(`concerns.${activeConcern}.row1`) as Record<string, string>,
