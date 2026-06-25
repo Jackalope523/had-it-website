@@ -5,7 +5,7 @@ import { hasLocale, NextIntlClientProvider } from 'next-intl';
 import { getTranslations } from 'next-intl/server';
 import { routing } from '@/i18n/routing';
 import { notFound } from 'next/navigation';
-import { cookies } from 'next/headers';
+import { cookies, headers } from 'next/headers';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import CookieBanner from '@/components/CookieBanner';
@@ -18,17 +18,6 @@ const workSans = Work_Sans({
   display: 'swap',
 });
 
-// Canonical base URL per locale, derived from the routing domains so the
-// branded hostnames live in a single source of truth (i18n/routing.ts).
-const SITE_URL_BY_LOCALE: Record<string, string> = Object.fromEntries(
-  (routing.domains ?? []).map((domain) => [
-    domain.defaultLocale,
-    `https://${domain.domain}`,
-  ]),
-);
-const FALLBACK_SITE_URL =
-  SITE_URL_BY_LOCALE[routing.defaultLocale] ?? 'https://www.hadit.ca';
-
 export async function generateMetadata({
   params,
 }: {
@@ -39,7 +28,9 @@ export async function generateMetadata({
   const title = t('title');
   const description = t('description');
   const ogTitle = t('ogTitle');
-  const siteUrl = SITE_URL_BY_LOCALE[locale] ?? FALLBACK_SITE_URL;
+  const requestHeaders = await headers();
+  const host = requestHeaders.get('host');
+  const siteUrl = `https://${host}`;
 
   return {
     metadataBase: new URL(siteUrl),
