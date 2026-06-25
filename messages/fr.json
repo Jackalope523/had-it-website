@@ -1,8 +1,8 @@
 {
   "Meta": {
-    "title": "We Hear You",
+    "title": "On t'écoute.",
     "description": "Soutien psychosocial basé au Québec. Écoute gratuite, confidentielle et sans jugement par clavardage, texto, courriel ou téléphone.",
-    "ogTitle": "On t'écoute.",
+    "ogTitle": "On est là pour t'écouter.",
     "ogTagline": "Écoute gratuite, confidentielle et sans jugement."
   },
   "Nav": {
@@ -13,7 +13,7 @@
   },
   "Footer": {
     "logo": "On est là",
-    "copyright": "© {year} We Hear You. Tous droits réservés.",
+    "copyright": "© {year} On est là. Tous droits réservés.",
     "privacyPolicy": "Politique de confidentialité"
   },
   "CookieConsent": {
