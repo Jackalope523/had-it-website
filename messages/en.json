@@ -40,17 +40,17 @@
           "needHelp": "Need help?"
         },
         "row3": {
-          "worldUnjust": "World is unjust?",
-          "hated": "Hated?",
+          "worldUnjust": "World feels unjust?",
+          "hated": "Feel hated?",
           "excluded": "Excluded?",
           "trapped": "Trapped?"
         }
       },
       "disengagement": {
         "row1": {
-          "stuck": "Feeling stuck?",
+          "wayOut": "Looking for a way out?",
           "hadEnough": "Had enough?",
-          "worried": "Worried?",
+          "worried": "Worried about making a change?",
           "nobodyToTalk": "Nobody to talk to?"
         },
         "row2": {
@@ -63,8 +63,9 @@
         "row3": {
           "worldUnjust": "World is unjust?",
           "wantChange": "Want a change?",
-          "wayOut": "Looking for a way out?",
-          "trapped": "Trapped?"
+          "stuck": "Feeling stuck?",
+          "trapped": "Trapped?",
+          "manipulated": "Feel manipulated?"
         }
       },
       "xenophobic": {
@@ -83,7 +84,7 @@
         },
         "row3": {
           "worldUnjust": "World is unjust?",
-          "ideasProvoke": "Your ideas provoke?",
+          "ideasProvoke": "Isolated by your ideas?",
           "hated": "Hated?",
           "excluded": "Excluded?"
         }
@@ -104,7 +105,7 @@
         },
         "row3": {
           "worldBroken": "World is broken?", 
-          "revolt": "Want to revolt?",
+          "revolt": "Looking for change?",
           "ignored": "Ignored and excluded?", 
           "angry": "Angry with the world?"
         }
@@ -148,7 +149,7 @@
         "row3": {
           "worldEnding": "World is ending?", 
           "act": "Looking to act?",
-          "gore": "Attracted to gore?",
+          "gore": "Drawn to gore?",
           "trapped": "Trapped?"
         }
       }
@@ -166,20 +167,20 @@
       "chat": {
         "tag": "Right now",
         "title": "Live chat",
-        "body": "Tap the chat. Talk to a real person, anonymously.",
+        "body": "Tap the chat. Talk to a real person confidentially.",
         "cta": "Start chatting"
       },
       "phone": {
         "tag": "5pm – 9pm",
         "title": "Phone",
         "body": "Try calling us. We're here to listen.",
-        "cta": "Call 514-268-4505"
+        "cta": "514-268-4505"
       },
       "text": {
         "tag": "Reply ≤24h",
         "title": "Text",
         "body": "Message us when you're ready. We'll meet you there.",
-        "cta": "Text 514-268-4505"
+        "cta": "514-268-4505"
       },
       "email": {
         "tag": "Reply ≤24h",
@@ -189,17 +190,17 @@
       }
     },
     "hesitating": {
-      "tag": "Reasons you're not reaching out",
+      "tag": "Reasons you might not be reaching out",
       "heading": "Hesitating to contact us?",
       "youLabel": "You",
       "usLabel": "Us",
       "notInCrisis": {
         "you": "I'm not in crisis. I don't need help.",
-        "us": "You don't need to be in crisis or to want help, sometimes it can just be nice to talk to someone who'll listen."
+        "us": "You don't need to be in crisis to want help, sometimes it can just be nice to talk to someone who'll listen."
       },
       "anonymity": {
         "you": "I don't want my name on anything.",
-        "us": "You don't have to give one. Chat, text, and email are anonymous by default."
+        "us": "You don't have to give one. Chat, text, and email are confidential by default."
       },
       "justVent": {
         "you": "I just want to vent, not get advice.",
@@ -234,7 +235,7 @@
       "blurb": "We're trained responders offering free, confidential, non-judgmental support to anyone weighed down by today's social climate.",
       "cta": "Learn more →",
       "stats": {
-        "confidential": { "n": "100%", "l": "Confidential" },
+        "confidential": { "n": "100%", "l": "Non-judgmental" },
         "cost": { "n": "0$", "l": "Cost to you" },
         "replyTime": { "n": "24h", "l": "Email / text reply" },
         "location": { "n": "QC", "l": "Based in Quebec" }
@@ -245,7 +246,7 @@
       "heading": "Do you have more<br></br><em>questions?</em>",
       "hours": {
         "q": "What hours are you open?",
-        "a": "Phone: 5 p.m. 9 p.m., every day. Email and text are monitored 24 hours and we reply within a day. Live chat is open whenever a responder is online usually during phone hours."
+        "a": "Phone: 5 p.m.-9 p.m., every day. Email and text are monitored all day, and we usually reply within 24 hours. Live chat is open whenever a responder is online, usually during phone hours."
       },
       "languages": {
         "q": "What languages do you speak?",
@@ -257,7 +258,7 @@
       },
       "afterReachOut": {
         "q": "What happens after I reach out?",
-        "a": "A trained responder reads or answers your message and replies. There's no intake form, no diagnosis, no referral pipeline. You decide what happens next."
+        "a": "A trained responder answers your message and replies. There's no intake form. You decide what happens next."
       },
       "callback": {
         "q": "Will you call me back if I don't answer?",
@@ -273,12 +274,12 @@
       {
         "tag": "Team",
         "title": "Our team.",
-        "body": "We are trained responders that work in collaboration with the Action Research on Social Polarisation (RAPS) team in Montréal, a multi-disciplinary team offering services that include social support, community engagement, psychotherapy, psychiatry, and access to medical services. RAPS has been working with polarised individuals for over ten years, using a non-judgmental approach that does not look to change people's opinions."
+        "body": "We are trained responders that work in collaboration with the Action Research on Social Polarisation (RAPS) team in Montréal, a multi-disciplinary team offering services that include social support, community engagement, psychotherapy, psychiatry, and access to medical services. RAPS has been working with individuals for over ten years, using a non-judgmental approach that does not look to change people's opinions."
       },
       {
         "tag": "Mission",
         "title": "Who we help.",
-        "body": "In conjunction with regional partners, we provide support to individuals and families throughout Québec who are affected by the present social climate, which causes distress to many. In this specific online initiative we hope to reach people in need where they're at. We hope to offer adapted support to individuals who have a hard time being heard, to reduce their potential distress while staying confidential."
+        "body": "In conjunction with regional partners, we provide support to individuals and families throughout Québec who are affected by the present social climate, which causes distress to many. In this specific online initiative we aim to reach people in need where they're at. We hope to offer adapted support to individuals who have a hard time being heard, to reduce their potential distress while staying confidential."
       },
       {
         "tag": "Privacy",
@@ -292,7 +293,7 @@
       "badge": "Free / community resources",
       "titleLead": "Helpful",
       "titleEmphasis": "resources.",
-      "subtitle": "A growing list of community resources across Quebec."
+      "subtitle": "A growing list of community resources across Quebec. If we've missed any, let us know."
     },
     "general": {
       "tag": "Start here",
@@ -385,13 +386,13 @@
         "telAideMontreal": {
           "city": "Montréal",
           "title": "Tel-Aide Montreal",
-          "body": "Free, anonymous and confidential listening line for the Montréal area.",
+          "body": "Free and confidential listening line for the Montréal area.",
           "href": "https://telaidemontreal.org/en/"
         },
         "telAideQuebec": {
           "city": "Québec City",
           "title": "Tel-Aide Québec",
-          "body": "Free, anonymous and confidential listening line for the Québec City area.",
+          "body": "Free and confidential listening line for the Québec City area.",
           "href": "https://www.telaide.qc.ca/"
         },
         "centreAide247": {

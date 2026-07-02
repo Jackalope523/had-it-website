@@ -167,7 +167,7 @@ export default async function Home({
                 {t(`ways.${card.key}.body`)}
               </p>
               <span
-                className={`mt-5 inline-flex items-center justify-between bg-white ${BORDER} px-3 py-2 text-xs md:text-sm font-black uppercase`}>
+                className={`mt-5 inline-flex items-center justify-between bg-white ${BORDER} px-3 py-2 text-md md:text-md font-black uppercase`}>
                 {t(`ways.${card.key}.cta`)}
                 <span aria-hidden>→</span>
               </span>

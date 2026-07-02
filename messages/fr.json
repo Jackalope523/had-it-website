@@ -40,17 +40,17 @@
           "needHelp": "Besoin d'aide?"
         },
         "row3": {
-          "worldUnjust": "Le monde est injuste?",
-          "hated": "Parfois détesté?",
+          "worldUnjust": "Le monde te semble injuste?",
+          "hated": "Tu te sens détesté?",
           "excluded": "Exclu?",
           "trapped": "Pris au piège?"
         }
       },
       "disengagement": {
         "row1": {
-          "stuck": "Tu te sens coincé?",
+          "wayOut": "Tu cherches une sortie?",
           "hadEnough": "T'en as assez?",
-          "worried": "Inquiet?",
+          "worried": "Inquiet à l'idée de changer?",
           "nobodyToTalk": "Personne à qui parler?"
         },
         "row2": {
@@ -63,8 +63,9 @@
         "row3": {
           "worldUnjust": "Le monde est injuste?",
           "wantChange": "Envie de changement?",
-          "wayOut": "Tu cherches une sortie?",
-          "trapped": "Pris au piège?"
+          "stuck": "Tu te sens coincé?",
+          "trapped": "Pris au piège?",
+          "manipulated": "Tu te sens manipulé?"
         }
       },
       "xenophobic": {
@@ -83,7 +84,7 @@
         },
         "row3": {
           "worldUnjust": "Le monde est injuste?",
-          "ideasProvoke": "Tes idées dérangent?",
+          "ideasProvoke": "Isolé par tes idées?",
           "hated": "Parfois détesté?",
           "excluded": "Exclu?"
         }
@@ -104,7 +105,7 @@
         },
         "row3": {
           "worldBroken": "Le monde s'effondre?",
-          "revolt": "Envie de te révolter?",
+          "revolt": "En quête de changement?",
           "ignored": "Ignoré et exclu?",
           "angry": "En colère contre le monde?"
         }
@@ -166,20 +167,20 @@
       "chat": {
         "tag": "Maintenant",
         "title": "Clavardage",
-        "body": "Ouvre le clavardage. Parle à une vraie personne, de façon anonyme.",
+        "body": "Ouvre le clavardage. Parle à une vraie personne, en toute confidentialité.",
         "cta": "Commencer à clavarder"
       },
       "phone": {
         "tag": "17 h – 21 h",
         "title": "Téléphone",
         "body": "Essaie de nous appeler. On est là pour t'écouter.",
-        "cta": "Appeler 514-268-4505"
+        "cta": "514-268-4505"
       },
       "text": {
         "tag": "Réponse ≤ 24 h",
         "title": "Texto",
         "body": "Écris-nous quand tu es prêt. On te répondra.",
-        "cta": "Texter 514-268-4505"
+        "cta": "514-268-4505"
       },
       "email": {
         "tag": "Réponse ≤ 24 h",
@@ -189,17 +190,17 @@
       }
     },
     "hesitating": {
-      "tag": "Incertitudes de nous joindre",
+      "tag": "Ce qui te retient peut-être de nous joindre",
       "heading": "Tu hésites à nous contacter?",
       "youLabel": "Toi",
       "usLabel": "Nous",
       "notInCrisis": {
         "you": "Je ne suis pas en crise. Je n'ai pas besoin d'aide.",
-        "us": "Tu n'as pas besoin d'être en crise ni de vouloir de l'aide; parfois, ça fait simplement du bien de parler à quelqu'un qui écoute."
+        "us": "Tu n'as pas besoin d'être en crise pour vouloir de l'aide; parfois, ça fait simplement du bien de parler à quelqu'un qui écoute."
       },
       "anonymity": {
         "you": "Je ne veux mon nom nulle part.",
-        "us": "Tu n'as pas à le donner. Le clavardage, les textos et les courriels sont anonymes par défaut."
+        "us": "Tu n'as pas à le donner. Le clavardage, les textos et les courriels sont confidentiels par défaut."
       },
       "justVent": {
         "you": "Je veux juste qu'on m'écoute, pas recevoir de conseils.",
@@ -234,7 +235,7 @@
       "blurb": "Nous sommes des intervenants formés qui offrent un soutien gratuit, confidentiel et sans jugement à toute personne qui souffre du climat social actuel.",
       "cta": "En savoir plus →",
       "stats": {
-        "confidential": { "n": "100 %", "l": "Confidentiel" },
+        "confidential": { "n": "100 %", "l": "Sans jugement" },
         "cost": { "n": "0 $", "l": "Coût pour toi" },
         "replyTime": { "n": "24 h", "l": "Réponse courriel / texto" },
         "location": { "n": "QC", "l": "Basé au Québec" }
@@ -245,7 +246,7 @@
       "heading": "Tu as d'autres<br></br><em>questions?</em>",
       "hours": {
         "q": "Quelles sont vos heures d'ouverture?",
-        "a": "Téléphone : de 17 h à 21 h, tous les jours. Les courriels et les textos sont surveillés 24 heures sur 24 et nous répondons en moins d'une journée. Le clavardage est ouvert dès qu'un intervenant est en ligne, habituellement pendant les heures de téléphone."
+        "a": "Téléphone : de 17 h à 21 h, tous les jours. Les courriels et les textos sont surveillés toute la journée et nous répondons habituellement en moins de 24 heures. Le clavardage est ouvert dès qu'un intervenant est en ligne, habituellement pendant les heures de téléphone."
       },
       "languages": {
         "q": "Quelles langues parlez-vous?",
@@ -257,7 +258,7 @@
       },
       "afterReachOut": {
         "q": "Que se passe-t-il après que je vous ai joints?",
-        "a": "Un intervenant formé lit ou écoute ton message et te répond. Il n'y a pas de formulaire d'accueil, pas de diagnostic, pas de système de référencement. C'est toi qui décides de la suite."
+        "a": "Un intervenant formé prend connaissance de ton message et te répond. Il n'y a pas de formulaire d'accueil. C'est toi qui décides de la suite."
       },
       "callback": {
         "q": "Allez-vous me rappeler si je ne réponds pas?",
@@ -273,12 +274,12 @@
       {
         "tag": "Équipe",
         "title": "Notre équipe.",
-        "body": "Nous sommes des intervenants qui travaillent en collaboration avec l'équipe de Recherche-Action sur les Polarisations Sociales (RAPS) à Montréal, une équipe multidisciplinaire offrant des services qui incluent du soutien social, de l'engagement communautaire, de la psychothérapie, de la psychiatrie et un accès à des services médicaux. RAPS travaille avec des personnes polarisées depuis plus de dix ans, en adoptant une approche sans jugement qui ne cherche pas à changer les opinions des gens."
+        "body": "Nous sommes des intervenants qui travaillent en collaboration avec l'équipe de Recherche-Action sur les Polarisations Sociales (RAPS) à Montréal, une équipe multidisciplinaire offrant des services qui incluent du soutien social, de l'engagement communautaire, de la psychothérapie, de la psychiatrie et un accès à des services médicaux. RAPS travaille avec des personnes depuis plus de dix ans, en adoptant une approche sans jugement qui ne cherche pas à changer les opinions des gens."
       },
       {
         "tag": "Mission",
         "title": "Qui nous aidons.",
-        "body": "En collaboration avec des partenaires régionaux, nous offrons du soutien aux personnes et aux familles partout au Québec qui sont touchées par le climat social actuel, qui cause de la détresse à plusieurs. Dans cette initiative en ligne, nous espérons rejoindre les personnes dans le besoin là où elles se trouvent. Nous souhaitons offrir un soutien adapté aux personnes qui ont de la difficulté à se faire entendre, afin de réduire leur détresse potentielle tout en restant confidentiels."
+        "body": "En collaboration avec des partenaires régionaux, nous offrons du soutien aux personnes et aux familles partout au Québec qui sont touchées par le climat social actuel, qui cause de la détresse à plusieurs. Dans cette initiative en ligne, nous cherchons à rejoindre les personnes dans le besoin là où elles se trouvent. Nous souhaitons offrir un soutien adapté aux personnes qui ont de la difficulté à se faire entendre, afin de réduire leur détresse potentielle tout en restant confidentiels."
       },
       {
         "tag": "Vie privée",
@@ -292,7 +293,7 @@
       "badge": "Gratuit / ressources communautaires",
       "titleLead": "Des ressources",
       "titleEmphasis": "utiles.",
-      "subtitle": "Une liste grandissante de ressources communautaires partout au Québec."
+      "subtitle": "Une liste grandissante de ressources communautaires partout au Québec. Si nous en avons oublié, fais-le-nous savoir."
     },
     "general": {
       "tag": "Commence ici",
@@ -385,13 +386,13 @@
         "telAideMontreal": {
           "city": "Montréal",
           "title": "Tel-Aide Montreal",
-          "body": "Ligne d'écoute gratuite, anonyme et confidentielle pour la région de Montréal.",
+          "body": "Ligne d'écoute gratuite et confidentielle pour la région de Montréal.",
           "href": "https://telaidemontreal.org/en/"
         },
         "telAideQuebec": {
           "city": "Ville de Québec",
           "title": "Tel-Aide Québec",
-          "body": "Ligne d'écoute gratuite, anonyme et confidentielle pour la région de Québec.",
+          "body": "Ligne d'écoute gratuite et confidentielle pour la région de Québec.",
           "href": "https://www.telaide.qc.ca/"
         },
         "centreAide247": {

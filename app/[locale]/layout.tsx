@@ -11,6 +11,8 @@ import Footer from '@/components/Footer';
 import CookieBanner from '@/components/CookieBanner';
 import { GoogleTagManager } from '@next/third-parties/google';
 import Script from 'next/script';
+import { LiveChatWidget } from '@livechat/widget-react';
+import Chat from '@/components/Chat';
 
 const workSans = Work_Sans({
   variable: '--font-sans',
@@ -80,17 +82,18 @@ export default async function RootLayout({
   return (
     <html lang={locale} className={`${workSans.variable} h-full antialiased`}>
       {accepted ? <GoogleTagManager gtmId="GTM-TT9958HQ" /> : null}
-      <Script
+      {/* <Script
         id="tawk-to"
         strategy="lazyOnload"
         src="https://embed.tawk.to/65e1f52f8d261e1b5f674f64/1hntabgim"
-      />
+      /> */}
 
       <body className="min-h-full flex flex-col">
         <NextIntlClientProvider>
           <Header />
           {children}
           <Footer />
+          {/* <Chat /> */}
           {!accepted ? <CookieBanner /> : null}
         </NextIntlClientProvider>
       </body>
