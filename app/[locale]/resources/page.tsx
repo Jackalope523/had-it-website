@@ -93,7 +93,7 @@ export default function Resources() {
   const t = useTranslations('Resources');
 
   return (
-    <div className="flex-1 bg-[#f9f5f2] text-[#282924] font-sans">
+    <div className="flex-1 bg-[#f9f5f2] text-[#282924]">
       <section className="mx-auto max-w-6xl px-4 md:px-6 py-12 md:py-20 text-center">
         <span
           className={`inline-flex items-center gap-2 bg-[#22d3ee] ${BORDER} px-3 py-1 text-[11px] md:text-xs font-black uppercase`}>
@@ -184,4 +184,3 @@ export default function Resources() {
     </div>
   );
 }
-

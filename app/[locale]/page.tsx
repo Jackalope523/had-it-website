@@ -99,7 +99,7 @@ export default async function Home({
   );
 
   return (
-    <div className="flex-1 bg-[#f9f5f2] text-[#282924] font-sans">
+    <div className="flex-1 bg-[#f9f5f2] text-[#282924]">
       <section className="relative overflow-hidden">
         <div className="mt-10 space-y-2 md:space-y-3">
           <MarqueeRow items={feelings1} />

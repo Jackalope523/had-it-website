@@ -15,9 +15,7 @@ import { LiveChatWidget } from '@livechat/widget-react';
 import Chat from '@/components/Chat';
 
 const workSans = Work_Sans({
-  variable: '--font-sans',
   subsets: ['latin'],
-  display: 'swap',
 });
 
 export async function generateMetadata({
@@ -80,7 +78,7 @@ export default async function RootLayout({
   const accepted = consent === 'accepted';
 
   return (
-    <html lang={locale} className={`${workSans.variable} h-full antialiased`}>
+    <html lang={locale} className={workSans.className}>
       {accepted ? <GoogleTagManager gtmId="GTM-TT9958HQ" /> : null}
       {/* <Script
         id="tawk-to"
