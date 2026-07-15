@@ -4,10 +4,10 @@ A production website for a Quebec-based support service offering free, confident
 non-judgmental listening by chat, text, email, or phone. The same codebase powers two
 fully-branded, single-language domains:
 
-| Domain | Language | Brand |
-|--------|----------|-------|
-| **www.hadit.ca** | English | HAD IT |
-| **www.ras-le-bol.ca** | French | RAS-LE-BOL |
+| Domain | Language |
+|--------|----------|
+| **www.hadit.ca** | English |
+| **www.ras-le-bol.ca** | French |
 
 ---
 
