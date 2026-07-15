@@ -1,4 +1,4 @@
-# HAD IT / RAS-LE-BOL — Bilingual Psychosocial Support Website
+# Had It / Ras-Le-Bol — Bilingual Psychosocial Support Website
 
 A production website for a Quebec-based support service offering free, confidential,
 non-judgmental listening by chat, text, email, or phone. The same codebase powers two
