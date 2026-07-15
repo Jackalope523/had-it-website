@@ -7,7 +7,7 @@ fully-branded, single-language domains:
 | Domain | Language |
 |--------|----------|
 | **[www.hadit.ca](https://had-it-website.vercel.app/en)** | English |
-| **[[www.ras-le-bol.ca](https://had-it-website.vercel.app/fr)]** | French |
+| **[www.ras-le-bol.ca](https://had-it-website.vercel.app/fr)** | French |
 
 ---
 
