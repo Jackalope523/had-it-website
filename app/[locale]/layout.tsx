@@ -91,7 +91,7 @@ export default async function RootLayout({
           <Header />
           {children}
           <Footer />
-          {/* <Chat /> */}
+          <Chat />
           {!accepted ? <CookieBanner /> : null}
         </NextIntlClientProvider>
       </body>
