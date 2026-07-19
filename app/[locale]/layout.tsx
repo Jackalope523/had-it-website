@@ -80,11 +80,6 @@ export default async function RootLayout({
   return (
     <html lang={locale} className={workSans.className}>
       {accepted ? <GoogleTagManager gtmId="GTM-TT9958HQ" /> : null}
-      {/* <Script
-        id="tawk-to"
-        strategy="lazyOnload"
-        src="https://embed.tawk.to/65e1f52f8d261e1b5f674f64/1hntabgim"
-      /> */}
 
       <body className="min-h-full flex flex-col">
         <NextIntlClientProvider>
