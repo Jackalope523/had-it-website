@@ -1,5 +1,6 @@
 import LiveChatButton from '@/components/LiveChatButton';
 import { Link } from '@/i18n/navigation';
+import { CONCERN_CODES, DEFAULT_CONCERN } from '@/lib/concerns';
 import { getTranslations } from 'next-intl/server';
 
 const BORDER = 'border-[3px] border-black';
@@ -8,20 +9,9 @@ const SHADOW_LG = 'shadow-[6px_6px_0_0_#000] md:shadow-[10px_10px_0_0_#000]';
 const PRESS =
   'transition-all active:translate-x-[3px] active:translate-y-[3px] active:shadow-[2px_2px_0_0_#000] md:hover:translate-x-[3px] md:hover:translate-y-[3px] md:hover:shadow-[3px_3px_0_0_#000]';
 
-const DEFAULT_CONCERN = 'main';
-
-const CONCERN_CODES: Record<string, string> = {
-  '204815': 'main',
-  '530194': 'disengagement',
-  '617283': 'xenophobic',
-  '845706': 'antiAuthority',
-  '368726': 'genderBased',
-  '472951': 'grievance',
-};
-
 const WAY_CARDS = [
-  { key: 'phone', href: 'tel:+15142684505', color: 'bg-lime-300' },
-  { key: 'text', href: 'sms:+15142684505', color: 'bg-yellow-300' },
+  // { key: 'phone', href: 'tel:+15142684505', color: 'bg-lime-300' },
+  // { key: 'text', href: 'sms:+15142684505', color: 'bg-yellow-300' },
   { key: 'email', href: 'mailto:here@hadit.ca', color: 'bg-[#22d3ee]' },
 ];
 
