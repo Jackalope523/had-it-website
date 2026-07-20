@@ -1,3 +1,4 @@
+import LiveChatButton from '@/components/LiveChatButton';
 import { Link } from '@/i18n/navigation';
 import { getTranslations } from 'next-intl/server';
 
@@ -19,7 +20,6 @@ const CONCERN_CODES: Record<string, string> = {
 };
 
 const WAY_CARDS = [
-  { key: 'chat', href: '#how', color: 'bg-[#ff5fa2]' },
   { key: 'phone', href: 'tel:+15142684505', color: 'bg-lime-300' },
   { key: 'text', href: 'sms:+15142684505', color: 'bg-yellow-300' },
   { key: 'email', href: 'mailto:here@hadit.ca', color: 'bg-[#22d3ee]' },
@@ -147,6 +147,7 @@ export default async function Home({
         </p>
 
         <div className="mt-12 grid gap-7 sm:grid-cols-2 lg:grid-cols-4">
+        <LiveChatButton/>
           {WAY_CARDS.map((card, i) => (
             <a
               key={card.key}

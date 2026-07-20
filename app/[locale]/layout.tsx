@@ -10,8 +10,6 @@ import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import CookieBanner from '@/components/CookieBanner';
 import { GoogleTagManager } from '@next/third-parties/google';
-import Script from 'next/script';
-import { LiveChatWidget } from '@livechat/widget-react';
 import Chat from '@/components/Chat';
 
 const workSans = Work_Sans({
