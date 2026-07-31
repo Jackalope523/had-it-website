@@ -77,7 +77,7 @@ export default async function RootLayout({
 
   return (
     <html lang={locale} className={workSans.className}>
-      {accepted ? <GoogleTagManager gtmId="GTM-TT9958HQ" /> : null}
+      {accepted ? <GoogleTagManager gtmId="GTM-TP697QFG" /> : null}
 
       <body className="min-h-full flex flex-col">
         <NextIntlClientProvider>
