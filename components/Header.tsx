@@ -1,25 +1,25 @@
-'use client';
+"use client";
 
-import { useEffect, useState } from 'react';
-import { useLocale, useTranslations } from 'next-intl';
-import { Link, usePathname } from '@/i18n/navigation';
-import { useSearchParams } from 'next/navigation';
+import { useEffect, useState } from "react";
+import { useLocale, useTranslations } from "next-intl";
+import { Link, usePathname } from "@/i18n/navigation";
+import { useSearchParams } from "next/navigation";
 
-const BORDER = 'border-[3px] border-black';
-const SHADOW = 'shadow-[5px_5px_0_0_#000] md:shadow-[6px_6px_0_0_#000]';
-const SHADOW_LG = 'shadow-[6px_6px_0_0_#000] md:shadow-[10px_10px_0_0_#000]';
+const BORDER = "border-[3px] border-black";
+const SHADOW = "shadow-[5px_5px_0_0_#000] md:shadow-[6px_6px_0_0_#000]";
+const SHADOW_LG = "shadow-[6px_6px_0_0_#000] md:shadow-[10px_10px_0_0_#000]";
 const PRESS =
-  'transition-all active:translate-x-[3px] active:translate-y-[3px] active:shadow-[2px_2px_0_0_#000] md:hover:translate-x-[3px] md:hover:translate-y-[3px] md:hover:shadow-[3px_3px_0_0_#000]';
+  "transition-all active:translate-x-[3px] active:translate-y-[3px] active:shadow-[2px_2px_0_0_#000] md:hover:translate-x-[3px] md:hover:translate-y-[3px] md:hover:shadow-[3px_3px_0_0_#000]";
 const LINK =
-  'font-extrabold inline-block cursor-pointer transition-transform duration-150 hover:scale-110 active:scale-110';
+  "font-extrabold inline-block cursor-pointer transition-transform duration-150 hover:scale-110 active:scale-110";
 
 export default function Header() {
-  const t = useTranslations('Nav');
+  const t = useTranslations("Nav");
   const locale = useLocale();
   const pathname = usePathname();
   const searchParams = useSearchParams();
-  const otherLocale = locale === 'en' ? 'fr' : 'en';
-  const otherLocaleLabel = otherLocale === 'fr' ? 'Français' : 'English';
+  const otherLocale = locale === "en" ? "fr" : "en";
+  const otherLocaleLabel = otherLocale === "fr" ? "Français" : "English";
 
   const [open, setOpen] = useState(false);
   const close = () => setOpen(false);
@@ -27,10 +27,10 @@ export default function Header() {
   useEffect(() => {
     if (!open) return;
     const onKey = (e: KeyboardEvent) => {
-      if (e.key === 'Escape') close();
+      if (e.key === "Escape") close();
     };
-    window.addEventListener('keydown', onKey);
-    return () => window.removeEventListener('keydown', onKey);
+    window.addEventListener("keydown", onKey);
+    return () => window.removeEventListener("keydown", onKey);
   }, [open]);
 
   return (
@@ -38,26 +38,27 @@ export default function Header() {
       <nav className="mx-auto max-w-6xl flex items-center justify-between px-4 md:px-6 py-3 md:py-4">
         <Link
           href="/"
-          className="flex items-center gap-2 text-lg md:text-2xl font-black tracking-tight uppercase">
+          className="flex items-center gap-2 text-lg md:text-2xl font-black tracking-tight uppercase"
+        >
           <span
             className={`inline-block h-5 w-5 md:h-6 md:w-6 bg-[#ff5fa2] ${BORDER}`}
           />
-          {t('logo')}
+          {t("logo")}
         </Link>
 
         <div className="hidden md:flex">
           <Link href="/about" className={LINK}>
-            {t('about')}
+            {t("about")}
           </Link>
         </div>
         <div className="hidden md:flex">
           <Link href="/resources" className={LINK}>
-            {t('resources')}
+            {t("resources")}
           </Link>
         </div>
         <div className="hidden md:flex">
-          <Link href="/#faq" className={LINK}>
-            {t('faq')}
+          <Link href={{ pathname: "/", hash: "faq" }} className={LINK}>
+            {t("faq")}
           </Link>
         </div>
 
@@ -65,7 +66,8 @@ export default function Header() {
           <Link
             href={{ pathname, query: Object.fromEntries(searchParams) }}
             locale={otherLocale}
-            className={`bg-black text-white px-4 py-2 font-black uppercase text-xs md:text-sm ${BORDER} ${SHADOW} ${PRESS}`}>
+            className={`bg-black text-white px-4 py-2 font-black uppercase text-xs md:text-sm ${BORDER} ${SHADOW} ${PRESS}`}
+          >
             {otherLocaleLabel}
           </Link>
 
@@ -75,7 +77,8 @@ export default function Header() {
             aria-expanded={open}
             aria-controls="mobile-menu"
             onClick={() => setOpen(!open)}
-            className={`md:hidden relative z-50 bg-black text-white px-3 py-2 ${BORDER} ${SHADOW} ${PRESS} flex flex-col gap-[3px] items-center justify-center`}>
+            className={`md:hidden relative z-50 bg-black text-white px-3 py-2 ${BORDER} ${SHADOW} ${PRESS} flex flex-col gap-[3px] items-center justify-center`}
+          >
             <span className="block h-0.75 w-5 bg-white" />
             <span className="block h-0.75 w-5 bg-white" />
             <span className="block h-0.75 w-5 bg-white" />
@@ -94,21 +97,26 @@ export default function Header() {
       {open && (
         <div
           id="mobile-menu"
-          className={`md:hidden absolute right-4 top-full mt-3 z-40 w-56 bg-white ${BORDER} ${SHADOW_LG} -rotate-1 p-5`}>
+          className={`md:hidden absolute right-4 top-full mt-3 z-40 w-56 bg-white ${BORDER} ${SHADOW_LG} -rotate-1 p-5`}
+        >
           <ul className="flex flex-col gap-4 text-lg font-black uppercase tracking-tight">
             <li>
               <Link href="/about" onClick={close} className={LINK}>
-                {t('about')}
+                {t("about")}
               </Link>
             </li>
             <li>
               <Link href="/resources" onClick={close} className={LINK}>
-                {t('resources')}
+                {t("resources")}
               </Link>
             </li>
             <li>
-              <Link href="/#faq" onClick={close} className={LINK}>
-                {t('faq')}
+              <Link
+                href={{ pathname: "/", hash: "faq" }}
+                onClick={close}
+                className={LINK}
+              >
+                {t("faq")}
               </Link>
             </li>
           </ul>
@@ -117,4 +125,3 @@ export default function Header() {
     </header>
   );
 }
-
