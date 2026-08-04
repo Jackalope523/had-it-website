@@ -3,7 +3,7 @@ import { defineRouting } from "next-intl/routing";
 export const routing = defineRouting({
     locales: ['en', 'fr'],
     defaultLocale: 'en',
-    localePrefix: 'as-needed',
+    localePrefix: 'never',
     domains: [
         { 
             domain: 'www.hadit.ca', 
@@ -18,4 +18,14 @@ export const routing = defineRouting({
             localePrefix: 'never'
         },
     ],
+    pathnames: {
+        '/about': {
+            en: '/about',
+            fr: '/nous',
+        },
+        '/resources': {
+            en: '/resources',
+            fr: '/ressources',
+        },
+    },
 })
