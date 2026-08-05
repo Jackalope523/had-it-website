@@ -143,35 +143,75 @@ export default async function Home({
 
         <div className="mt-12 grid gap-7 sm:grid-cols-2 lg:grid-cols-4">
           <LiveChatButton />
-          {WAY_CARDS.map((card, i) => (
-            <a
-              key={card.key}
-              href={card.href}
-              className={`group relative flex flex-col ${
-                card.color
-              } ${BORDER} ${SHADOW_LG} ${PRESS} p-6 md:p-7 ${
-                i % 2 === 0 ? "md:-rotate-1" : "md:rotate-1"
-              }`}
+          <a
+            key={"phone"}
+            href={"tel:+15142684505"}
+            className={`group relative flex flex-col bg-lime-300 ${BORDER} ${SHADOW_LG} ${PRESS} p-6 md:p-7 md:-rotate-1`}
+          >
+            <div
+              className={`absolute -top-3 right-4 bg-black text-white ${BORDER} px-2 py-1 text-[10px] md:text-xs font-black uppercase`}
             >
-              <div
-                className={`absolute -top-3 right-4 bg-black text-white ${BORDER} px-2 py-1 text-[10px] md:text-xs font-black uppercase`}
-              >
-                {t(`ways.${card.key}.tag`)}
-              </div>
-              <h3 className="mt-1 text-2xl md:text-3xl font-black uppercase tracking-tight">
-                {t(`ways.${card.key}.title`)}
-              </h3>
-              <p className="mt-2 flex-1 font-medium leading-snug">
-                {t(`ways.${card.key}.body`)}
-              </p>
-              <span
-                className={`mt-5 inline-flex items-center justify-between bg-white ${BORDER} px-3 py-2 text-md md:text-md font-black uppercase`}
-              >
-                {t(`ways.${card.key}.cta`)}
-                <span aria-hidden>→</span>
-              </span>
-            </a>
-          ))}
+              {t("ways.phone.tag")}
+            </div>
+            <h3 className="mt-1 text-2xl md:text-3xl font-black uppercase tracking-tight">
+              {t("ways.phone.title")}
+            </h3>
+            <p className="mt-2 flex-1 font-medium leading-snug">
+              {t("ways.phone.body")}
+            </p>
+            <span
+              className={`mt-5 inline-flex items-center justify-between bg-white ${BORDER} px-3 py-2 text-md md:text-md font-black uppercase`}
+            >
+              {t("ways.phone.cta")}
+              <span aria-hidden>→</span>
+            </span>
+          </a>
+          <a
+            key={"text"}
+            href={"sms:+15142684505"}
+            className={`group relative flex flex-col bg-yellow-300 ${BORDER} ${SHADOW_LG} ${PRESS} p-6 md:p-7 md:rotate-1`}
+          >
+            <div
+              className={`absolute -top-3 right-4 bg-black text-white ${BORDER} px-2 py-1 text-[10px] md:text-xs font-black uppercase`}
+            >
+              {t("ways.text.tag")}
+            </div>
+            <h3 className="mt-1 text-2xl md:text-3xl font-black uppercase tracking-tight">
+              {t(`ways.text.title`)}
+            </h3>
+            <p className="mt-2 flex-1 font-medium leading-snug">
+              {t(`ways.text.body`)}
+            </p>
+            <span
+              className={`mt-5 inline-flex items-center justify-between bg-white ${BORDER} px-3 py-2 text-md md:text-md font-black uppercase`}
+            >
+              {t(`ways.text.cta`)}
+              <span aria-hidden>→</span>
+            </span>
+          </a>
+          <a
+            key={"email"}
+            href={`mailto:${t("ways.email.cta")}`}
+            className={`group relative flex flex-col bg-[#22d3ee] ${BORDER} ${SHADOW_LG} ${PRESS} p-6 md:p-7 md:-rotate-1`}
+          >
+            <div
+              className={`absolute -top-3 right-4 bg-black text-white ${BORDER} px-2 py-1 text-[10px] md:text-xs font-black uppercase`}
+            >
+              {t(`ways.email.tag`)}
+            </div>
+            <h3 className="mt-1 text-2xl md:text-3xl font-black uppercase tracking-tight">
+              {t(`ways.email.title`)}
+            </h3>
+            <p className="mt-2 flex-1 font-medium leading-snug">
+              {t(`ways.email.body`)}
+            </p>
+            <span
+              className={`mt-5 inline-flex items-center justify-between bg-white ${BORDER} px-3 py-2 text-md md:text-md font-black uppercase`}
+            >
+              {t(`ways.email.cta`)}
+              <span aria-hidden>→</span>
+            </span>
+          </a>
         </div>
       </section>
 
