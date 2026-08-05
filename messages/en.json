@@ -335,13 +335,13 @@
           "city": "Gatineau",
           "title": "Moisson Outaouais",
           "body": "Food bank serving the Outaouais region.",
-          "href": "https://www.moissonoutaouais.com/en/"
+          "href": "https://www.moissonoutaouais.com/"
         },
         "moissonEstrie": {
           "city": "Sherbrooke",
           "title": "Moisson Estrie",
           "body": "Food bank serving the Estrie region.",
-          "href": "https://www.moissonestrie.com/en/"
+          "href": "https://www.moissonestrie.com/"
         }
       }
     },
