@@ -74,6 +74,8 @@ export default async function RootLayout({
 
   const consent = (await cookies()).get("cookie-consent")?.value;
   const accepted = consent === "accepted";
+  const declined = consent === "declined";
+  const hasChosen = accepted || declined;
 
   return (
     <html lang={locale} className={workSans.className}>
@@ -85,7 +87,7 @@ export default async function RootLayout({
           {children}
           <Footer />
           <Chat />
-          {!accepted ? <CookieBanner /> : null}
+          {!hasChosen ? <CookieBanner /> : null}
         </NextIntlClientProvider>
       </body>
     </html>
